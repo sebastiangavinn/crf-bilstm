@@ -1,0 +1,13 @@
+{
+  "B-ORGAN": 0,
+  "O": 1,
+  "B-GEJALA": 2,
+  "B-HAMA": 3,
+  "I-HAMA": 4,
+  "I-GEJALA": 5,
+  "B-PENYAKIT": 6,
+  "I-PENYAKIT": 7,
+  "I-ORGAN": 8,
+  "B-LOKASI": 9,
+  "I-LOKASI": 10
+}

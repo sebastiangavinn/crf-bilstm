@@ -1,0 +1,752 @@
+[
+  {
+    "id": 0,
+    "text": "Tanaman padi menunjukkan gejala klorosis (penyakit) dan terdapat kutu putih (hama) pada daunnya .",
+    "entities": []
+  },
+  {
+    "id": 1,
+    "text": "Bercak coklat (gejala) meluas pada batang padi , menandakan adanya serangan penyakit blas (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 2,
+    "text": "Wereng coklat (hama) menyebabkan tanaman mengering dan layu , kondisi yang dikenal sebagai hopperburn (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 3,
+    "text": "Gejala daun menggulung (gejala) seringkali menjadi tanda awal infeksi virus tungro (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 4,
+    "text": "Hasil panen padi menurun drastis akibat bulir padi menjadi hampa (gejala) karena serangan penyakit kerdil rumput (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 5,
+    "text": "Ditemukan ular tanah (hama) di sekitar akar padi , yang menyebabkan tanaman tidak dapat tumbuh maksimal .",
+    "entities": []
+  },
+  {
+    "id": 6,
+    "text": "Busuk pelepah (penyakit) ditandai dengan lesi abu-abu (gejala) pada pelepah daun .",
+    "entities": []
+  },
+  {
+    "id": 7,
+    "text": "Hama penggerek batang (hama) menyebabkan malai putih (gejala) atau dikenal dengan istilah sundep (gejala) pada tanaman .",
+    "entities": []
+  },
+  {
+    "id": 8,
+    "text": "Busuk batang (penyakit) membuat tanaman padi menjadi rebah (gejala) dan mudah patah .",
+    "entities": []
+  },
+  {
+    "id": 9,
+    "text": "Tikus (hama) merusak area persawahan , menyebabkan kehilangan anakan (gejala) yang signifikan .",
+    "entities": []
+  },
+  {
+    "id": 10,
+    "text": "Terlihat telur hama (gejala) berwarna kuning menempel di bawah permukaan daun padi (organ) .",
+    "entities": []
+  },
+  {
+    "id": 11,
+    "text": "Serangan Nezara viridula (hama) menyebabkan bulir padi (organ) menjadi berubah warna (gejala) dan keriput .",
+    "entities": []
+  },
+  {
+    "id": 12,
+    "text": "Kutu kebul (hama) menghisap cairan tanaman , meninggalkan embun madu (gejala) yang memicu jamur .",
+    "entities": []
+  },
+  {
+    "id": 13,
+    "text": "Muncul garis-garis coklat (gejala) pada daun tua , indikasi kuat penyakit hawar daun bakteri (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 14,
+    "text": "Hama putih palsu (hama) memakan lapisan hijau daun , menyisakan epidermis (organ) transparan .",
+    "entities": []
+  },
+  {
+    "id": 15,
+    "text": "Gejala kresek (gejala) muncul pada fase anakan akibat infeksi bakteri Xanthomonas oryzae pv . oryzae (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 16,
+    "text": "Tanaman menunjukkan pertumbuhan kerdil (gejala) yang parah , sering dikaitkan dengan virus kerdil rumput (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 17,
+    "text": "Busuk pangkal batang (penyakit) membuat akar (organ) padi menjadi lunak dan berlendir (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 18,
+    "text": "Belalang (hama) memotong tepi daun (organ) , meninggalkan bekas gigitan tidak teratur (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 19,
+    "text": "Tungro (penyakit) menyebabkan pelepah daun (organ) menjadi menguning (gejala) dan memendek .",
+    "entities": []
+  },
+  {
+    "id": 20,
+    "text": "Infeksi Helminthosporium oryzae (penyakit) ditandai dengan bercak-bercak oval (gejala) pada daun .",
+    "entities": []
+  },
+  {
+    "id": 21,
+    "text": "Pada musim hujan , penyakit hawar pelepah (penyakit) menyebabkan busuk basah (gejala) pada tanaman .",
+    "entities": []
+  },
+  {
+    "id": 22,
+    "text": "Pengendalian hama tikus (hama) sulit dilakukan karena mereka merusak pematang sawah (lokasi) dan tanaman .",
+    "entities": []
+  },
+  {
+    "id": 23,
+    "text": "Ditemukan miselium putih (gejala) pada permukaan air di sekitar pangkal batang (organ) yang terinfeksi .",
+    "entities": []
+  },
+  {
+    "id": 24,
+    "text": "Serangan penggerek batang kuning (hama) menyebabkan kematian anakan (organ) padi muda .",
+    "entities": []
+  },
+  {
+    "id": 25,
+    "text": "Lesi (gejala) memanjang berwarna coklat kemerahan terlihat pada batang (organ) padi yang terserang .",
+    "entities": []
+  },
+  {
+    "id": 26,
+    "text": "Petani mengeluhkan rendahnya jumlah bulir bernas (gejala) akibat serangan walang sangit (hama) .",
+    "entities": []
+  },
+  {
+    "id": 27,
+    "text": "Gejala tangkai patah (gejala) pada masa pengisian bulir adalah ciri khas serangan penggerek batang (hama) .",
+    "entities": []
+  },
+  {
+    "id": 28,
+    "text": "Penyakit busuk leher (penyakit) menyebabkan malai (organ) padi tidak dapat terisi penuh dan menjadi kering .",
+    "entities": []
+  },
+  {
+    "id": 29,
+    "text": "Pengamatan mikroskopis menunjukkan spora Pyricularia oryzae (penyakit) dari bercak blas (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 30,
+    "text": "Daun bendera (organ) padi menunjukkan klorosis interveinal (gejala) akibat kekurangan unsur hara .",
+    "entities": []
+  },
+  {
+    "id": 31,
+    "text": "Gejala mati anakan (gejala) secara tiba-tiba adalah indikasi serangan parah wereng hijau (hama) .",
+    "entities": []
+  },
+  {
+    "id": 32,
+    "text": "Ulat grayak (hama) memakan seluruh bagian daun (organ) dalam waktu singkat , meninggalkan tulang daun .",
+    "entities": []
+  },
+  {
+    "id": 33,
+    "text": "Pada varietas rentan , bercak daun coklat (gejala) meluas hingga ke gabah (organ) .",
+    "entities": []
+  },
+  {
+    "id": 34,
+    "text": "Penyakit kerdil hampa (penyakit) membuat tanaman menghasilkan malai kosong (gejala) sepenuhnya .",
+    "entities": []
+  },
+  {
+    "id": 35,
+    "text": "Terdapat sekret madu (gejala) yang lengket pada permukaan daun (organ) karena aktivitas serangga .",
+    "entities": []
+  },
+  {
+    "id": 36,
+    "text": "Kupu-kupu (hama dewasa) betina meletakkan telur (gejala) secara berkelompok di ujung daun (organ) .",
+    "entities": []
+  },
+  {
+    "id": 37,
+    "text": "Bercak daun sempit (gejala) sering ditemukan pada varietas padi yang rentan terhadap blast (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 38,
+    "text": "Larva (hama) penggerek (hama) meninggalkan lubang (gejala) kecil pada batang (organ) .",
+    "entities": []
+  },
+  {
+    "id": 39,
+    "text": "Petani perlu mewaspadai warna daun oranye (gejala) yang mengarah pada infeksi virus .",
+    "entities": []
+  },
+  {
+    "id": 40,
+    "text": "Kerusakan oleh keong mas (hama) terlihat dari anakan terpotong (gejala) di dekat permukaan air .",
+    "entities": []
+  },
+  {
+    "id": 41,
+    "text": "Penyakit busuk hitam (penyakit) pada biji (organ) padi membuat gabah menjadi kotor .",
+    "entities": []
+  },
+  {
+    "id": 42,
+    "text": "Bercak bulat kecil (gejala) dengan pusat pucat dan tepi coklat mengelilingi daerah infeksi .",
+    "entities": []
+  },
+  {
+    "id": 43,
+    "text": "Wereng punggung putih (hama) menyebabkan penguningan (gejala) dimulai dari bagian bawah tanaman .",
+    "entities": []
+  },
+  {
+    "id": 44,
+    "text": "Di sawah irigasi , busuk akar (penyakit) diperparah oleh genangan air yang terlalu lama (kondisi lingkungan) .",
+    "entities": []
+  },
+  {
+    "id": 45,
+    "text": "Gejala tanda air (gejala) kebasahan pada pelepah (organ) menjadi lebih jelas saat pagi hari .",
+    "entities": []
+  },
+  {
+    "id": 46,
+    "text": "Tikus sawah (hama) menunjukkan preferensi untuk memakan bulir padi yang matang (organ) di malai .",
+    "entities": []
+  },
+  {
+    "id": 47,
+    "text": "Munculnya cendawan jelaga (penyakit sekunder) disebabkan oleh ekskresi serangga penghisap (hama) .",
+    "entities": []
+  },
+  {
+    "id": 48,
+    "text": "Penyakit busuk biji (penyakit) menghasilkan bubuk hitam (gejala) pada permukaan gabah (organ) yang terinfeksi .",
+    "entities": []
+  },
+  {
+    "id": 49,
+    "text": "Daun padi yang terserang kutu perisai (hama) menunjukkan pengeringan dini (gejala) dan sulit pulih .",
+    "entities": []
+  },
+  {
+    "id": 50,
+    "text": "Bercak coklat (gejala) pada daun padi (organ) dapat merupakan indikasi serangan blas (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 51,
+    "text": "Daun menggulung (gejala) dan batang kerdil (gejala) adalah gejala khas tungro (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 52,
+    "text": "Wereng coklat (hama) mengakibatkan hopperburn (gejala) atau kekeringan massal pada petak sawah .",
+    "entities": []
+  },
+  {
+    "id": 53,
+    "text": "Hama penggerek batang (hama) menyebabkan sundep (gejala) pada fase vegetatif dan beluk (gejala) pada fase generatif .",
+    "entities": []
+  },
+  {
+    "id": 54,
+    "text": "Busuk pelepah (penyakit) seringkali menghasilkan sklerotium (gejala) kecil pada pangkal batang .",
+    "entities": []
+  },
+  {
+    "id": 55,
+    "text": "Ditemukan ulat (hama) memotong anakan (organ) padi , meninggalkan potongan seperti tersayat .",
+    "entities": []
+  },
+  {
+    "id": 56,
+    "text": "Serangan penyakit kerdil rumput (penyakit) membuat tanaman padi (organ) terlihat seperti rumpun rumput .",
+    "entities": []
+  },
+  {
+    "id": 57,
+    "text": "Walang sangit (hama) menyuntikkan racun yang menyebabkan bulir padi (organ) menjadi berwarna hitam (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 58,
+    "text": "Gejala kerusakan akar (gejala) oleh nematoda (hama) membuat tanaman sulit menyerap nutrisi .",
+    "entities": []
+  },
+  {
+    "id": 59,
+    "text": "Penyakit bercak coklat (penyakit) mengakibatkan berkurangnya fotosintesis (gejala) pada daun .",
+    "entities": []
+  },
+  {
+    "id": 60,
+    "text": "Adanya lapisan putih seperti tepung (gejala) pada daun adalah tanda penyakit embun tepung (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 61,
+    "text": "Ulat grayak (hama) bisa menghabiskan daun (organ) padi hanya dalam semalam .",
+    "entities": []
+  },
+  {
+    "id": 62,
+    "text": "Bercak ungu kemerahan (gejala) pada pelepah bawah mengindikasikan serangan busuk pelepah bergaris (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 63,
+    "text": "Belalang hijau (hama) meninggalkan bekas gigitan (gejala) yang tidak beraturan pada tepi daun .",
+    "entities": []
+  },
+  {
+    "id": 64,
+    "text": "Virus kerdil rumput (penyakit) menyebabkan anakan (organ) padi menjadi pendek dan banyak .",
+    "entities": []
+  },
+  {
+    "id": 65,
+    "text": "Kutu putih (hama) pada pangkal batang membuat tanaman menjadi lemah (gejala) dan sulit tumbuh .",
+    "entities": []
+  },
+  {
+    "id": 66,
+    "text": "Muncul bintik-bintik kecil (gejala) berwarna coklat kemerahan pada daun akibat penyakit bercak coklat (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 67,
+    "text": "Hama penggerek batang (hama) meninggalkan lubang masuk (gejala) yang jelas terlihat di batang (organ) .",
+    "entities": []
+  },
+  {
+    "id": 68,
+    "text": "Malai padi (organ) menjadi hitam (gejala) dan tidak berisi karena serangan penyakit busuk bulir (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 69,
+    "text": "Wereng (hama) dapat menyebabkan daun menguning (gejala) dimulai dari bagian bawah .",
+    "entities": []
+  },
+  {
+    "id": 70,
+    "text": "Penyakit busuk leher (penyakit) menyebabkan leher malai (organ) padi menjadi patah (gejala) dan layu .",
+    "entities": []
+  },
+  {
+    "id": 71,
+    "text": "Petani menemukan telur (gejala) walang sangit (hama) berbentuk seperti drum kecil .",
+    "entities": []
+  },
+  {
+    "id": 72,
+    "text": "Keong mas (hama) merusak batang (organ) muda padi hingga tanaman mati .",
+    "entities": []
+  },
+  {
+    "id": 73,
+    "text": "Bercak bulat (gejala) dengan tepi berwarna coklat dan pusat abu-abu adalah gejala penyakit blas (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 74,
+    "text": "Tanaman yang terinfeksi virus kerdil hampa (penyakit) tidak menghasilkan bulir (organ) sama sekali .",
+    "entities": []
+  },
+  {
+    "id": 75,
+    "text": "Akar padi (organ) yang terserang nematoda (hama) terlihat bengkak (gejala) dan membusuk .",
+    "entities": []
+  },
+  {
+    "id": 76,
+    "text": "Gejala kresek (gejala) akibat hawar daun bakteri (penyakit) dimulai dari ujung daun (organ) .",
+    "entities": []
+  },
+  {
+    "id": 77,
+    "text": "Ulat penggulung daun (hama) menyatukan dua daun (organ) dengan benang sutera untuk berlindung .",
+    "entities": []
+  },
+  {
+    "id": 78,
+    "text": "Gabah (organ) yang terinfeksi jamur (penyakit) berubah menjadi hitam dan kotor (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 79,
+    "text": "Busuk pangkal batang (penyakit) membuat bagian bawah batang (organ) menjadi lunak (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 80,
+    "text": "Wereng hijau (hama) menyebarkan virus tungro (penyakit) yang menyebabkan penguningan daun (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 81,
+    "text": "Tikus (hama) membuat tanaman rebah (gejala) dan memakan malai (organ) padi .",
+    "entities": []
+  },
+  {
+    "id": 82,
+    "text": "Larva (hama) penggerek batang (hama) membuat anakan mati (gejala) secara tiba-tiba .",
+    "entities": []
+  },
+  {
+    "id": 83,
+    "text": "Penyakit hawar pelepah (penyakit) ditandai dengan bercak oval (gejala) berwarna hijau keabu-abuan pada pelepah (organ) .",
+    "entities": []
+  },
+  {
+    "id": 84,
+    "text": "Busuk akar (penyakit) membuat tanaman padi (organ) menjadi kerdil (gejala) dan tidak subur .",
+    "entities": []
+  },
+  {
+    "id": 85,
+    "text": "Belalang (hama) dapat menyebabkan kerusakan mekanis (gejala) pada daun .",
+    "entities": []
+  },
+  {
+    "id": 86,
+    "text": "Malai (organ) yang terserang busuk leher (penyakit) sering terlihat kering (gejala) dan tidak berisi .",
+    "entities": []
+  },
+  {
+    "id": 87,
+    "text": "Bercak coklat (gejala) dapat meluas ke seluruh daun (organ) pada kasus infeksi yang parah .",
+    "entities": []
+  },
+  {
+    "id": 88,
+    "text": "Hama putih palsu (hama) membuat lapisan atas daun (organ) menjadi putih seperti kapur (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 89,
+    "text": "Penyakit hawar daun bakteri (penyakit) menyebabkan daun (organ) layu (gejala) dari ujung ke pangkal .",
+    "entities": []
+  },
+  {
+    "id": 90,
+    "text": "Walang sangit (hama) meninggalkan noda (gejala) berbau (gejala) pada bulir (organ) padi yang dihisap .",
+    "entities": []
+  },
+  {
+    "id": 91,
+    "text": "Busuk biji (penyakit) membuat biji (organ) padi menjadi berjamur (gejala) dan tidak bisa digunakan .",
+    "entities": []
+  },
+  {
+    "id": 92,
+    "text": "Tungro (penyakit) menyebabkan warna daun (gejala) menjadi oranye (gejala) pada bagian ujung .",
+    "entities": []
+  },
+  {
+    "id": 93,
+    "text": "Cacing tanah (hama) dapat merusak akar (organ) tanaman saat jumlahnya berlebihan .",
+    "entities": []
+  },
+  {
+    "id": 94,
+    "text": "Lesi (gejala) berbentuk mata pada daun adalah ciri khas penyakit blas (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 95,
+    "text": "Serangan kutu perisai (hama) menyebabkan daun menguning (gejala) dan mengering (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 96,
+    "text": "Bercak bulat kecil (gejala) pada daun bisa menjadi awal infeksi penyakit bercak daun (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 97,
+    "text": "Wereng punggung putih (hama) meninggalkan bekas luka (gejala) pada pelepah (organ) saat menghisap .",
+    "entities": []
+  },
+  {
+    "id": 98,
+    "text": "Penyakit busuk batang (penyakit) membuat batang (organ) padi menjadi rapuh (gejala) dan mudah patah .",
+    "entities": []
+  },
+  {
+    "id": 99,
+    "text": "Tikus (hama) merusak area persawahan (lokasi) , menyebabkan tanaman rebah (gejala) dalam jumlah besar .",
+    "entities": []
+  },
+  {
+    "id": 100,
+    "text": "Terdapat bintik-bintik kecil (gejala) pada daun yang kemudian meluas menjadi bercak (gejala) akibat penyakit bercak coklat (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 101,
+    "text": "Kutu putih (hama) menghisap cairan dari pelepah (organ) padi , menyebabkan pertumbuhan terhambat (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 102,
+    "text": "Penggerek batang (hama) menyebabkan sundep (gejala) pada tanaman muda dan beluk (gejala) pada tanaman dewasa .",
+    "entities": []
+  },
+  {
+    "id": 103,
+    "text": "Penyakit blas (penyakit) ditandai dengan lesi berbentuk mata (gejala) pada daun (organ) padi .",
+    "entities": []
+  },
+  {
+    "id": 104,
+    "text": "Walang sangit (hama) menyuntikkan racun ke dalam bulir padi (organ) , membuatnya kosong (gejala) atau berwarna coklat (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 105,
+    "text": "Gejala kresek (gejala) pada daun (organ) padi disebabkan oleh hawar daun bakteri (penyakit) .",
+    "entities": []
+  },
+  {
+    "id": 106,
+    "text": "Tikus (hama) merusak pematang sawah (lokasi) dan memotong batang (organ) padi , menyebabkan rebah (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 107,
+    "text": "Virus tungro (penyakit) menyebabkan daun (organ) padi menjadi kerdil (gejala) dan kuning (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 108,
+    "text": "Hama putih palsu (hama) memakan epidermis (organ) daun , meninggalkan lapisan putih (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 109,
+    "text": "Busuk pelepah (penyakit) ditandai dengan bercak oval tidak beraturan (gejala) pada pelepah (organ) .",
+    "entities": []
+  },
+  {
+    "id": 110,
+    "text": "Keong mas (hama) sering ditemukan memotong anakan (organ) padi muda hingga habis .",
+    "entities": []
+  },
+  {
+    "id": 111,
+    "text": "Serangan penyakit kerdil rumput (penyakit) membuat tanaman (organ) terlihat seperti rumpun yang padat .",
+    "entities": []
+  },
+  {
+    "id": 112,
+    "text": "Busuk pangkal batang (penyakit) membuat batang (organ) menjadi lunak (gejala) dan busuk .",
+    "entities": []
+  },
+  {
+    "id": 113,
+    "text": "Wereng coklat (hama) menyebabkan hopperburn (gejala) atau kekeringan massal pada tanaman .",
+    "entities": []
+  },
+  {
+    "id": 114,
+    "text": "Busuk biji (penyakit) menyebabkan gabah (organ) menjadi berubah warna (gejala) dan berjamur (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 115,
+    "text": "Nematoda (hama) merusak akar (organ) , menyebabkan pertumbuhan terhenti (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 116,
+    "text": "Busuk leher malai (penyakit) membuat leher malai (organ) menjadi hitam (gejala) dan patah (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 117,
+    "text": "Ditemukan ulat penggulung daun (hama) yang menggulung daun (organ) untuk tempat berlindung .",
+    "entities": []
+  },
+  {
+    "id": 118,
+    "text": "Belalang (hama) meninggalkan bekas gigitan (gejala) yang tidak beraturan pada daun (organ) .",
+    "entities": []
+  },
+  {
+    "id": 119,
+    "text": "Tikus (hama) menggerogoti batang (organ) padi dan membuat malai (organ) jatuh ke tanah .",
+    "entities": []
+  },
+  {
+    "id": 120,
+    "text": "Wereng hijau (hama) dapat menyebarkan virus tungro (penyakit) yang membuat daun (organ) menjadi oranye (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 121,
+    "text": "Busuk akar (penyakit) menyebabkan tanaman (organ) menjadi layu (gejala) dan mudah dicabut .",
+    "entities": []
+  },
+  {
+    "id": 122,
+    "text": "Bercak coklat (gejala) akibat penyakit bercak coklat (penyakit) dapat mengurangi hasil panen .",
+    "entities": []
+  },
+  {
+    "id": 123,
+    "text": "Hama penggerek batang (hama) menghasilkan kotoran (gejala) berwarna coklat di lubang batang .",
+    "entities": []
+  },
+  {
+    "id": 124,
+    "text": "Penyakit kerdil hampa (penyakit) membuat bulir padi (organ) tidak terisi penuh (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 125,
+    "text": "Gejala kuning (gejala) pada daun (organ) akibat serangan wereng (hama) sering dimulai dari ujung .",
+    "entities": []
+  },
+  {
+    "id": 126,
+    "text": "Busuk leher (penyakit) menyebabkan malai (organ) tidak dapat mengisi bulir (organ) secara optimal .",
+    "entities": []
+  },
+  {
+    "id": 127,
+    "text": "Walang sangit (hama) menyuntikkan racun yang membuat bulir padi (organ) menjadi hampa (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 128,
+    "text": "Tikus (hama) membuat lubang (gejala) besar di sekitar pematang sawah (lokasi) .",
+    "entities": []
+  },
+  {
+    "id": 129,
+    "text": "Virus kerdil rumput (penyakit) membuat tanaman (organ) menghasilkan anakan (organ) yang sangat banyak (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 130,
+    "text": "Bercak blas (gejala) pada daun (organ) padi seringkali terlihat seperti mata .",
+    "entities": []
+  },
+  {
+    "id": 131,
+    "text": "Hama wereng (hama) menghisap cairan tanaman (gejala) dari pelepah (organ) dan batang .",
+    "entities": []
+  },
+  {
+    "id": 132,
+    "text": "Ulat grayak (hama) dapat menyebabkan kerusakan parah (gejala) pada daun (organ) padi .",
+    "entities": []
+  },
+  {
+    "id": 133,
+    "text": "Penyakit busuk pelepah (penyakit) dapat menyebabkan busuk basah (gejala) pada tanaman .",
+    "entities": []
+  },
+  {
+    "id": 134,
+    "text": "Kutu perisai (hama) menyebabkan penguningan (gejala) dan pengeringan (gejala) pada daun (organ) .",
+    "entities": []
+  },
+  {
+    "id": 135,
+    "text": "Busuk pangkal batang (penyakit) membuat batang (organ) menjadi rapuh (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 136,
+    "text": "Penyakit bercak coklat (penyakit) membuat daun (organ) padi menjadi berbercak (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 137,
+    "text": "Hawar daun bakteri (penyakit) menyebabkan daun (organ) menjadi layu (gejala) dan kering (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 138,
+    "text": "Larva penggerek (hama) meninggalkan kotoran (gejala) di dalam batang (organ) padi .",
+    "entities": []
+  },
+  {
+    "id": 139,
+    "text": "Tikus (hama) memotong batang (organ) padi , menyebabkan rebah (gejala) di banyak area .",
+    "entities": []
+  },
+  {
+    "id": 140,
+    "text": "Penyakit busuk biji (penyakit) membuat gabah (organ) padi menjadi hitam (gejala) dan tidak bisa ditanam .",
+    "entities": []
+  },
+  {
+    "id": 141,
+    "text": "Wereng coklat (hama) dapat menyebabkan kerusakan meluas (gejala) pada petak sawah .",
+    "entities": []
+  },
+  {
+    "id": 142,
+    "text": "Walang sangit (hama) menyebabkan bulir padi (organ) menjadi hampa (gejala) dan berubah warna (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 143,
+    "text": "Busuk akar (penyakit) membuat akar (organ) padi menjadi coklat (gejala) dan mati .",
+    "entities": []
+  },
+  {
+    "id": 144,
+    "text": "Penyakit blas (penyakit) dapat menyebabkan patah leher malai (gejala) pada fase pengisian bulir .",
+    "entities": []
+  },
+  {
+    "id": 145,
+    "text": "Nematoda (hama) menyebabkan akar (organ) menjadi menggumpal (gejala) dan busuk .",
+    "entities": []
+  },
+  {
+    "id": 146,
+    "text": "Hama putih palsu (hama) membuat daun (organ) padi terlihat berkapur (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 147,
+    "text": "Wereng hijau (hama) menyebarkan virus (penyakit) yang menyebabkan pertumbuhan kerdil (gejala) .",
+    "entities": []
+  },
+  {
+    "id": 148,
+    "text": "Busuk batang (penyakit) menyebabkan batang (organ) padi menjadi kosong (gejala) di bagian dalam .",
+    "entities": []
+  },
+  {
+    "id": 149,
+    "text": "Walang sangit (hama) meninggalkan noda (gejala) pada bulir padi (organ) yang dihisap .",
+    "entities": []
+  }
+]

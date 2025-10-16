@@ -1,0 +1,12 @@
+{
+  "total_tokens": 2675,
+  "labeled_tokens": 943,
+  "entity_counts": {
+    "GEJALA": 259,
+    "HAMA": 184,
+    "ORGAN": 209,
+    "PENYAKIT": 240,
+    "LOKASI": 51
+  },
+  "coverage_percentage": 35.25233644859813
+}
