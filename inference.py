@@ -4,6 +4,7 @@ Usage: python inference.py
 """
 
 import torch
+import re
 from typing import List, Tuple
 from main import BiLSTM_CRF, Vocabulary
 
@@ -49,6 +50,11 @@ class NERPredictor:
             self.vocab.word2idx.get(token, self.vocab.word2idx["<UNK>"]) 
             for token in tokens
         ]
+    
+    def preprocess_text(text: str):
+        text = re.sub(r"[^\w\s]", "", text)
+        text = text.lower()
+        return text.strip()
     
     def predict(self, sentence: str) -> List[Tuple[str, str]]:
         """

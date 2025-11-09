@@ -3,123 +3,96 @@ import re
 from pathlib import Path
 from typing import Dict, List, Tuple
 
-def auto_label(text: str, gazetteer: Dict[str, List[str]]) -> List[Tuple[str, str]]:
+def auto_label(text: str, gazetteer: Dict[str, List[str]]) -> List[Tuple[str, str, int, int]]:
     tokens = re.findall(r'\b\w+\b|[.,!?;]', text)
     labels = ["O"] * len(tokens)
-    
-    char_to_token = {}
+
+    token_positions = []
     current_pos = 0
-    for idx, token in enumerate(tokens):
+    for token in tokens:
         token_start = text.find(token, current_pos)
-        if token_start != -1:
-            for i in range(token_start, token_start + len(token)):
-                char_to_token[i] = idx
-            current_pos = token_start + len(token)
-    
-    all_terms = []
-    for label, terms in gazetteer.items():
-        for term in terms:
-            all_terms.append((term, label))
+        if token_start == -1:
+            token_start = current_pos
+        token_end = token_start + len(token)
+        token_positions.append((token_start, token_end))
+        current_pos = token_end
+
+    char_to_token = {}
+    for idx, (start, end) in enumerate(token_positions):
+        for i in range(start, end):
+            char_to_token[i] = idx
+
+    all_terms = [(term, label) for label, terms in gazetteer.items() for term in terms]
     all_terms.sort(key=lambda x: len(x[0]), reverse=True)
-    
+
     labeled_positions = set()
-    
+
     for term, label in all_terms:
         escaped_term = re.escape(term)
         pattern = re.compile(rf"\b{escaped_term}\b", re.IGNORECASE)
-        
         for match in pattern.finditer(text):
-            start_char = match.start()
-            end_char = match.end()
-            
-            token_indices = set()
-            for char_pos in range(start_char, end_char):
-                if char_pos in char_to_token:
-                    token_indices.add(char_to_token[char_pos])
-            
-            token_indices = sorted(token_indices)
-            
+            start_char, end_char = match.start(), match.end()
+            token_indices = sorted({char_to_token[i] for i in range(start_char, end_char) if i in char_to_token})
+
             if not any(idx in labeled_positions for idx in token_indices):
                 for i, token_idx in enumerate(token_indices):
-                    if i == 0:
-                        labels[token_idx] = f"B-{label}"
-                    else:
-                        labels[token_idx] = f"I-{label}"
+                    labels[token_idx] = f"B-{label}" if i == 0 else f"I-{label}"
                     labeled_positions.add(token_idx)
-    
-    return list(zip(tokens, labels))
 
+    return [(token, label, start, end) for (token, label), (start, end) in zip(zip(tokens, labels), token_positions)]
 
-def save_conll_format(labeled_data: List[Tuple[str, str]], output_path: str):
-    """
-    Simpan dalam format CoNLL (token per line, blank line untuk sentence boundary)
-    """
+def save_conll_format(labeled_data: List[Tuple], output_path: str):
     with open(output_path, "w", encoding="utf-8") as f:
-        for token, label in labeled_data:
+        for entry in labeled_data:
+            token, label = entry[0], entry[1]
             if token in ['.', '!', '?']:
                 f.write(f"{token}\t{label}\n\n")
             else:
                 f.write(f"{token}\t{label}\n")
 
-
-def save_spacy_format(labeled_data: List[Tuple[str, str]], text: str, output_path: str):
-    """
-    Simpan dalam format Spacy training data (JSON)
-    """
+def save_spacy_format(labeled_data: List[Tuple[str, str, int, int]], text: str, output_path: str):
     entities = []
     current_entity = None
-    char_position = 0
-    
-    for token, label in labeled_data:
-        token_start = text.find(token, char_position)
-        token_end = token_start + len(token)
-        
+
+    for token, label, start, end in labeled_data:
         if label.startswith("B-"):
             if current_entity:
                 entities.append(current_entity)
-            entity_type = label[2:]
-            current_entity = [token_start, token_end, entity_type]
+            current_entity = [start, end, label[2:]]
         elif label.startswith("I-") and current_entity:
-            current_entity[1] = token_end
+            current_entity[1] = end
         else:
             if current_entity:
                 entities.append(current_entity)
                 current_entity = None
-        
-        char_position = token_end
-    
+
     if current_entity:
         entities.append(current_entity)
-    
+
     training_data = {
         "text": text,
-        "entities": [[start, end, label] for start, end, label in entities]
+        "entities": [[start, end, ent_type] for start, end, ent_type in entities]
     }
-    
+
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(training_data, f, ensure_ascii=False, indent=2)
 
-
-def generate_statistics(labeled_data: List[Tuple[str, str]]) -> Dict:
-    """
-    Generate statistik dari hasil labeling
-    """
+def generate_statistics(labeled_data: List[Tuple]) -> Dict:
     stats = {
         "total_tokens": len(labeled_data),
         "labeled_tokens": 0,
         "entity_counts": {}
     }
-    
-    for token, label in labeled_data:
+
+    for entry in labeled_data:
+        token, label = entry[0], entry[1]
         if label != "O":
             stats["labeled_tokens"] += 1
             entity_type = label.split("-")[1]
             stats["entity_counts"][entity_type] = stats["entity_counts"].get(entity_type, 0) + 1
-    
-    stats["coverage_percentage"] = (stats["labeled_tokens"] / stats["total_tokens"]) * 100
-    
-    return stats
 
+    stats["coverage_percentage"] = (stats["labeled_tokens"] / stats["total_tokens"]) * 100
+    return stats
 
 def main():
     text_path = Path("data/ner_labeling/dataset.txt")
@@ -162,8 +135,8 @@ def main():
     
     simple_path = output_dir / "ner_data.txt"
     with open(simple_path, "w", encoding="utf-8") as f:
-        for token, label in labeled:
-            f.write(f"{token}\t{label}\n")
+        for entry in labeled:
+            f.write(f"{entry[0]}\t{entry[1]}\n")
     print(f"✅ Simple format: {simple_path}")
     
     stats_path = output_dir / "labeling_stats.json"
@@ -174,9 +147,9 @@ def main():
     print(f"\n{'='*60}")
     print("Preview (20 token pertama):")
     print(f"{'='*60}")
-    for i, (token, label) in enumerate(labeled[:20]):
+    for i, (token, label, _, _) in enumerate(labeled[:20]):
         print(f"{token:20} {label}")
-    
+
     print(f"\n✨ Selesai! Dataset NER siap digunakan.")
 
 

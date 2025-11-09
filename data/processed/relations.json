@@ -1,0 +1,440 @@
+[
+  { "from": "penyakit blas", "to": "daun", "type": "MENYERANG" },
+  { "from": "penyakit blas", "to": "batang", "type": "MENYERANG" },
+  { "from": "penyakit blas", "to": "leher malai", "type": "MENYERANG" },
+  { "from": "penyakit blas", "to": "malai", "type": "MENYERANG" },
+  { "from": "penyakit blas", "to": "bercak coklat", "type": "MEMILIKI_GEJALA" },
+  { "from": "penyakit blas", "to": "lesi", "type": "MEMILIKI_GEJALA" },
+  { "from": "penyakit blas", "to": "lesi oval", "type": "MEMILIKI_GEJALA" },
+  { "from": "penyakit blas", "to": "patah", "type": "MEMILIKI_GEJALA" },
+  { "from": "penyakit blas", "to": "hampa", "type": "MEMILIKI_GEJALA" },
+  { "from": "penyakit blas", "to": "musim hujan", "type": "TERJADI_PADA" },
+  {
+    "from": "pyricularia oryzae",
+    "to": "penyakit blas",
+    "type": "MENYEBABKAN"
+  },
+
+  { "from": "penyakit busuk pelepah", "to": "pelepah", "type": "MENYERANG" },
+  {
+    "from": "penyakit busuk pelepah",
+    "to": "pelepah daun",
+    "type": "MENYERANG"
+  },
+  { "from": "penyakit busuk pelepah", "to": "batang", "type": "MENYERANG" },
+  {
+    "from": "penyakit busuk pelepah",
+    "to": "lesi hijau keabu-abuan",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit busuk pelepah",
+    "to": "busuk basah",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit busuk pelepah",
+    "to": "rebah",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit busuk pelepah",
+    "to": "musim hujan",
+    "type": "TERJADI_PADA"
+  },
+  { "from": "busuk pelepah", "to": "pelepah", "type": "MENYERANG" },
+  { "from": "busuk pelepah", "to": "musim hujan", "type": "TERJADI_PADA" },
+
+  { "from": "busuk pelepah bergaris", "to": "pelepah", "type": "MENYERANG" },
+  { "from": "busuk pelepah bergaris", "to": "batang", "type": "MENYERANG" },
+  { "from": "busuk pelepah bergaris", "to": "lesi", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "penyakit hawar daun bakteri", "to": "daun", "type": "MENYERANG" },
+  {
+    "from": "penyakit hawar daun bakteri",
+    "to": "kresek",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit hawar daun bakteri",
+    "to": "kuning",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit hawar daun bakteri",
+    "to": "kering",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit hawar daun bakteri",
+    "to": "berlendir",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit hawar daun bakteri",
+    "to": "musim hujan",
+    "type": "TERJADI_PADA"
+  },
+  {
+    "from": "xanthomonas oryzae pv. oryzae",
+    "to": "penyakit hawar daun bakteri",
+    "type": "MENYEBABKAN"
+  },
+  { "from": "hawar daun bakteri", "to": "daun", "type": "MENYERANG" },
+  { "from": "hawar daun bakteri", "to": "kresek", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "penyakit hawar pelepah", "to": "pelepah", "type": "MENYERANG" },
+  {
+    "from": "penyakit hawar pelepah",
+    "to": "pelepah daun",
+    "type": "MENYERANG"
+  },
+  {
+    "from": "penyakit hawar pelepah",
+    "to": "lesi oval",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit hawar pelepah",
+    "to": "lesi abu-abu",
+    "type": "MEMILIKI_GEJALA"
+  },
+  { "from": "hawar pelepah", "to": "pelepah", "type": "MENYERANG" },
+
+  { "from": "penyakit busuk biji", "to": "biji", "type": "MENYERANG" },
+  { "from": "penyakit busuk biji", "to": "gabah", "type": "MENYERANG" },
+  { "from": "penyakit busuk biji", "to": "bulir padi", "type": "MENYERANG" },
+  { "from": "penyakit busuk biji", "to": "hitam", "type": "MEMILIKI_GEJALA" },
+  {
+    "from": "penyakit busuk biji",
+    "to": "berjamur",
+    "type": "MEMILIKI_GEJALA"
+  },
+  { "from": "busuk biji", "to": "biji", "type": "MENYERANG" },
+  { "from": "busuk biji", "to": "gabah", "type": "MENYERANG" },
+
+  { "from": "penyakit busuk leher", "to": "leher malai", "type": "MENYERANG" },
+  { "from": "penyakit busuk leher", "to": "malai", "type": "MENYERANG" },
+  { "from": "penyakit busuk leher", "to": "hitam", "type": "MEMILIKI_GEJALA" },
+  { "from": "penyakit busuk leher", "to": "patah", "type": "MEMILIKI_GEJALA" },
+  { "from": "penyakit busuk leher", "to": "hampa", "type": "MEMILIKI_GEJALA" },
+  { "from": "busuk leher", "to": "leher malai", "type": "MENYERANG" },
+  { "from": "busuk leher malai", "to": "leher malai", "type": "MENYERANG" },
+
+  { "from": "penyakit busuk batang", "to": "batang", "type": "MENYERANG" },
+  {
+    "from": "penyakit busuk batang",
+    "to": "pangkal batang",
+    "type": "MENYERANG"
+  },
+  { "from": "penyakit busuk batang", "to": "hitam", "type": "MEMILIKI_GEJALA" },
+  {
+    "from": "penyakit busuk batang",
+    "to": "busuk basah",
+    "type": "MEMILIKI_GEJALA"
+  },
+  { "from": "penyakit busuk batang", "to": "rebah", "type": "MEMILIKI_GEJALA" },
+  { "from": "busuk batang", "to": "batang", "type": "MENYERANG" },
+
+  { "from": "busuk akar", "to": "akar", "type": "MENYERANG" },
+  { "from": "busuk akar", "to": "hitam", "type": "MEMILIKI_GEJALA" },
+  { "from": "busuk akar", "to": "layu", "type": "MEMILIKI_GEJALA" },
+  { "from": "busuk akar", "to": "mati anakan", "type": "MEMILIKI_GEJALA" },
+
+  {
+    "from": "busuk pangkal batang",
+    "to": "pangkal batang",
+    "type": "MENYERANG"
+  },
+  { "from": "busuk pangkal batang", "to": "batang", "type": "MENYERANG" },
+  { "from": "busuk pangkal batang", "to": "hitam", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "busuk bulir", "to": "bulir", "type": "MENYERANG" },
+  { "from": "busuk bulir", "to": "bulir padi", "type": "MENYERANG" },
+  { "from": "busuk bulir", "to": "gabah", "type": "MENYERANG" },
+  { "from": "busuk bulir", "to": "hitam", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "penyakit kerdil rumput", "to": "daun", "type": "MENYERANG" },
+  { "from": "penyakit kerdil rumput", "to": "anakan", "type": "MENYERANG" },
+  {
+    "from": "penyakit kerdil rumput",
+    "to": "kerdil",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit kerdil rumput",
+    "to": "kuning",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit kerdil rumput",
+    "to": "anakan pendek",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "virus kerdil rumput",
+    "to": "penyakit kerdil rumput",
+    "type": "MENYEBABKAN"
+  },
+  {
+    "from": "wereng hijau",
+    "to": "virus kerdil rumput",
+    "type": "MENYEBABKAN"
+  },
+
+  { "from": "penyakit kerdil hampa", "to": "daun", "type": "MENYERANG" },
+  { "from": "penyakit kerdil hampa", "to": "anakan", "type": "MENYERANG" },
+  { "from": "penyakit kerdil hampa", "to": "malai", "type": "MENYERANG" },
+  {
+    "from": "penyakit kerdil hampa",
+    "to": "kerdil",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit kerdil hampa",
+    "to": "kuning",
+    "type": "MEMILIKI_GEJALA"
+  },
+  { "from": "penyakit kerdil hampa", "to": "hampa", "type": "MEMILIKI_GEJALA" },
+  {
+    "from": "penyakit kerdil hampa",
+    "to": "anakan pendek",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "virus kerdil hampa",
+    "to": "penyakit kerdil hampa",
+    "type": "MENYEBABKAN"
+  },
+  {
+    "from": "wereng coklat",
+    "to": "virus kerdil hampa",
+    "type": "MENYEBABKAN"
+  },
+
+  { "from": "virus tungro", "to": "tungro", "type": "MENYEBABKAN" },
+  { "from": "tungro", "to": "daun", "type": "MENYERANG" },
+  { "from": "tungro", "to": "kuning", "type": "MEMILIKI_GEJALA" },
+  { "from": "tungro", "to": "kuning oranye", "type": "MEMILIKI_GEJALA" },
+  { "from": "tungro", "to": "kerdil", "type": "MEMILIKI_GEJALA" },
+  {
+    "from": "tungro",
+    "to": "pertumbuhan terhambat",
+    "type": "MEMILIKI_GEJALA"
+  },
+  { "from": "wereng hijau", "to": "tungro", "type": "MENYEBABKAN" },
+
+  { "from": "penyakit bercak coklat", "to": "daun", "type": "MENYERANG" },
+  { "from": "penyakit bercak coklat", "to": "pelepah", "type": "MENYERANG" },
+  {
+    "from": "penyakit bercak coklat",
+    "to": "bercak coklat",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit bercak coklat",
+    "to": "bercak bulat",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penyakit bercak coklat",
+    "to": "bercak oval",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "helminthosporium oryzae",
+    "to": "penyakit bercak coklat",
+    "type": "MENYEBABKAN"
+  },
+
+  { "from": "bercak daun", "to": "daun", "type": "MENYERANG" },
+  { "from": "bercak daun", "to": "bercak coklat", "type": "MEMILIKI_GEJALA" },
+  { "from": "bercak daun", "to": "bintik coklat", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "bercak daun sempit", "to": "daun", "type": "MENYERANG" },
+  {
+    "from": "bercak daun sempit",
+    "to": "bercak coklat",
+    "type": "MEMILIKI_GEJALA"
+  },
+  { "from": "bercak daun sempit", "to": "lesi", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "blast", "to": "daun", "type": "MENYERANG" },
+  { "from": "blast", "to": "leher malai", "type": "MENYERANG" },
+  { "from": "blast", "to": "bercak blas", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "busuk hitam", "to": "bulir", "type": "MENYERANG" },
+  { "from": "busuk hitam", "to": "gabah", "type": "MENYERANG" },
+  { "from": "busuk hitam", "to": "hitam", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "cendawan jelaga", "to": "daun", "type": "MENYERANG" },
+  { "from": "cendawan jelaga", "to": "batang", "type": "MENYERANG" },
+  { "from": "cendawan jelaga", "to": "hitam", "type": "MEMILIKI_GEJALA" },
+  {
+    "from": "cendawan jelaga",
+    "to": "lapisan putih",
+    "type": "MEMILIKI_GEJALA"
+  },
+
+  { "from": "embun tepung", "to": "daun", "type": "MENYERANG" },
+  { "from": "embun tepung", "to": "lapisan putih", "type": "MEMILIKI_GEJALA" },
+  {
+    "from": "embun tepung",
+    "to": "lapisan putih seperti tepung",
+    "type": "MEMILIKI_GEJALA"
+  },
+  { "from": "embun tepung", "to": "putih", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "wereng", "to": "daun", "type": "MENYERANG" },
+  { "from": "wereng", "to": "batang", "type": "MENYERANG" },
+  { "from": "wereng", "to": "kuning", "type": "MEMILIKI_GEJALA" },
+  { "from": "wereng", "to": "kering", "type": "MEMILIKI_GEJALA" },
+  { "from": "wereng", "to": "hopperburn", "type": "MEMILIKI_GEJALA" },
+  { "from": "wereng", "to": "fase vegetatif", "type": "TERJADI_PADA" },
+
+  { "from": "wereng coklat", "to": "batang", "type": "MENYERANG" },
+  { "from": "wereng coklat", "to": "pelepah", "type": "MENYERANG" },
+  { "from": "wereng coklat", "to": "kuning", "type": "MEMILIKI_GEJALA" },
+  { "from": "wereng coklat", "to": "kering", "type": "MEMILIKI_GEJALA" },
+  { "from": "wereng coklat", "to": "hopperburn", "type": "MEMILIKI_GEJALA" },
+  { "from": "wereng coklat", "to": "fase vegetatif", "type": "TERJADI_PADA" },
+
+  { "from": "wereng hijau", "to": "daun", "type": "MENYERANG" },
+  { "from": "wereng hijau", "to": "kuning", "type": "MEMILIKI_GEJALA" },
+  { "from": "wereng hijau", "to": "kerdil", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "wereng punggung putih", "to": "batang", "type": "MENYERANG" },
+  { "from": "wereng punggung putih", "to": "daun", "type": "MENYERANG" },
+  {
+    "from": "wereng punggung putih",
+    "to": "kuning",
+    "type": "MEMILIKI_GEJALA"
+  },
+
+  { "from": "penggerek batang", "to": "batang", "type": "MENYERANG" },
+  { "from": "penggerek batang", "to": "anakan", "type": "MENYERANG" },
+  {
+    "from": "penggerek batang",
+    "to": "mati anakan",
+    "type": "MEMILIKI_GEJALA"
+  },
+  { "from": "penggerek batang", "to": "kuning", "type": "MEMILIKI_GEJALA" },
+  { "from": "penggerek batang", "to": "kering", "type": "MEMILIKI_GEJALA" },
+  { "from": "penggerek batang", "to": "hampa", "type": "MEMILIKI_GEJALA" },
+  { "from": "penggerek batang", "to": "lubang", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "penggerek batang kuning", "to": "batang", "type": "MENYERANG" },
+  { "from": "penggerek batang kuning", "to": "anakan", "type": "MENYERANG" },
+  {
+    "from": "penggerek batang kuning",
+    "to": "mati anakan",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "penggerek batang kuning",
+    "to": "lubang",
+    "type": "MEMILIKI_GEJALA"
+  },
+
+  { "from": "ulat grayak", "to": "daun", "type": "MENYERANG" },
+  { "from": "ulat grayak", "to": "lubang", "type": "MEMILIKI_GEJALA" },
+  { "from": "ulat grayak", "to": "bekas gigitan", "type": "MEMILIKI_GEJALA" },
+  {
+    "from": "ulat grayak",
+    "to": "menyisakan tulang daun",
+    "type": "MEMILIKI_GEJALA"
+  },
+
+  { "from": "ulat penggulung daun", "to": "daun", "type": "MENYERANG" },
+  {
+    "from": "ulat penggulung daun",
+    "to": "menggulung",
+    "type": "MEMILIKI_GEJALA"
+  },
+  {
+    "from": "ulat penggulung daun",
+    "to": "menggulung daun",
+    "type": "MEMILIKI_GEJALA"
+  },
+  { "from": "ulat penggulung daun", "to": "lubang", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "belalang", "to": "daun", "type": "MENYERANG" },
+  { "from": "belalang", "to": "batang", "type": "MENYERANG" },
+  { "from": "belalang", "to": "lubang", "type": "MEMILIKI_GEJALA" },
+  { "from": "belalang", "to": "bekas gigitan", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "belalang hijau", "to": "daun", "type": "MENYERANG" },
+  { "from": "belalang hijau", "to": "lubang", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "walang sangit", "to": "bulir", "type": "MENYERANG" },
+  { "from": "walang sangit", "to": "bulir padi", "type": "MENYERANG" },
+  { "from": "walang sangit", "to": "gabah", "type": "MENYERANG" },
+  { "from": "walang sangit", "to": "hampa", "type": "MEMILIKI_GEJALA" },
+  { "from": "walang sangit", "to": "bintik coklat", "type": "MEMILIKI_GEJALA" },
+  { "from": "walang sangit", "to": "kosong", "type": "MEMILIKI_GEJALA" },
+  { "from": "walang sangit", "to": "fase generatif", "type": "TERJADI_PADA" },
+
+  { "from": "tikus", "to": "batang", "type": "MENYERANG" },
+  { "from": "tikus", "to": "bulir", "type": "MENYERANG" },
+  { "from": "tikus", "to": "gabah", "type": "MENYERANG" },
+  { "from": "tikus", "to": "bekas gigitan", "type": "MEMILIKI_GEJALA" },
+  { "from": "tikus", "to": "patah", "type": "MEMILIKI_GEJALA" },
+  { "from": "tikus", "to": "rebah", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "tikus sawah", "to": "batang", "type": "MENYERANG" },
+  { "from": "tikus sawah", "to": "bulir", "type": "MENYERANG" },
+  { "from": "tikus sawah", "to": "bekas gigitan", "type": "MEMILIKI_GEJALA" },
+  { "from": "tikus sawah", "to": "sawah", "type": "TERJADI_PADA" },
+
+  { "from": "keong mas", "to": "daun", "type": "MENYERANG" },
+  { "from": "keong mas", "to": "anakan", "type": "MENYERANG" },
+  { "from": "keong mas", "to": "tanaman muda", "type": "MENYERANG" },
+  { "from": "keong mas", "to": "lubang", "type": "MEMILIKI_GEJALA" },
+  { "from": "keong mas", "to": "bekas gigitan", "type": "MEMILIKI_GEJALA" },
+  { "from": "keong mas", "to": "sawah irigasi", "type": "TERJADI_PADA" },
+
+  { "from": "kutu putih", "to": "daun", "type": "MENYERANG" },
+  { "from": "kutu putih", "to": "batang", "type": "MENYERANG" },
+  { "from": "kutu putih", "to": "kuning", "type": "MEMILIKI_GEJALA" },
+  { "from": "kutu putih", "to": "putih", "type": "MEMILIKI_GEJALA" },
+  { "from": "kutu putih", "to": "embun madu", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "kutu kebul", "to": "daun", "type": "MENYERANG" },
+  { "from": "kutu kebul", "to": "kuning", "type": "MEMILIKI_GEJALA" },
+  { "from": "kutu kebul", "to": "embun madu", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "kutu perisai", "to": "daun", "type": "MENYERANG" },
+  { "from": "kutu perisai", "to": "batang", "type": "MENYERANG" },
+  { "from": "kutu perisai", "to": "kuning", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "hama putih palsu", "to": "daun", "type": "MENYERANG" },
+  { "from": "hama putih palsu", "to": "putih", "type": "MEMILIKI_GEJALA" },
+  {
+    "from": "hama putih palsu",
+    "to": "putih seperti kapur",
+    "type": "MEMILIKI_GEJALA"
+  },
+
+  { "from": "nematoda", "to": "akar", "type": "MENYERANG" },
+  { "from": "nematoda", "to": "batang", "type": "MENYERANG" },
+  { "from": "nematoda", "to": "bengkak", "type": "MEMILIKI_GEJALA" },
+  { "from": "nematoda", "to": "kerdil", "type": "MEMILIKI_GEJALA" },
+  { "from": "nematoda", "to": "kuning", "type": "MEMILIKI_GEJALA" },
+  { "from": "nematoda", "to": "layu", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "larva penggerek", "to": "batang", "type": "MENYERANG" },
+  { "from": "larva penggerek", "to": "lubang", "type": "MEMILIKI_GEJALA" },
+  { "from": "larva penggerek", "to": "mati anakan", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "kupu-kupu", "to": "daun", "type": "MENYERANG" },
+  { "from": "kupu-kupu", "to": "lubang", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "serangga penghisap", "to": "daun", "type": "MENYERANG" },
+  { "from": "serangga penghisap", "to": "batang", "type": "MENYERANG" },
+  { "from": "serangga penghisap", "to": "kuning", "type": "MEMILIKI_GEJALA" },
+  { "from": "serangga penghisap", "to": "kering", "type": "MEMILIKI_GEJALA" },
+
+  { "from": "nezara viridula", "to": "bulir", "type": "MENYERANG" },
+  { "from": "nezara viridula", "to": "gabah", "type": "MENYERANG" },
+  { "from": "nezara viridula", "to": "hampa", "type": "MEMILIKI_GEJALA" }
+]

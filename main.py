@@ -7,7 +7,6 @@ from torch.utils.data import Dataset, DataLoader
 from sklearn.metrics import classification_report
 from torchcrf import CRF
 
-
 class DataReader:
     """Handle reading and parsing CoNLL format files."""
     
@@ -89,11 +88,9 @@ class NERDataset(Dataset):
     
     def _encode(self, sentence: List[str], tags: List[str]) -> Tuple[torch.Tensor, torch.Tensor]:
         """Encode sentence and tags to tensor indices."""
-        # Encode words
         word_ids = [self.vocab.word2idx.get(w, 1) for w in sentence][:self.max_len]
         word_ids += [0] * (self.max_len - len(word_ids))
         
-        # Encode tags
         tag_ids = [self.vocab.tag2idx[t] for t in tags][:self.max_len]
         tag_ids += [0] * (self.max_len - len(tag_ids))
         
@@ -198,7 +195,6 @@ class Trainer:
 def main():
     """Main training and evaluation pipeline."""
     
-    # Configuration
     DATA_DIR = Path("data")
     BATCH_SIZE = 16
     EMB_DIM = 128
@@ -210,20 +206,17 @@ def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Using device: {device}")
     
-    # Load data
     print("Loading data...")
     reader = DataReader()
     train_sentences, train_tags = reader.read_conll(DATA_DIR / "train.txt")
     valid_sentences, valid_tags = reader.read_conll(DATA_DIR / "valid.txt")
     test_sentences, test_tags = reader.read_conll(DATA_DIR / "test.txt")
     
-    # Build vocabulary
     print("Building vocabulary...")
     vocab = Vocabulary()
     vocab.build_vocab(train_sentences, train_tags)
     print(f"Vocab size: {len(vocab.word2idx)}, Tag size: {len(vocab.tag2idx)}")
     
-    # Create datasets and dataloaders
     train_dataset = NERDataset(train_sentences, train_tags, vocab, MAX_LEN)
     valid_dataset = NERDataset(valid_sentences, valid_tags, vocab, MAX_LEN)
     test_dataset = NERDataset(test_sentences, test_tags, vocab, MAX_LEN)
@@ -232,7 +225,6 @@ def main():
     valid_loader = DataLoader(valid_dataset, batch_size=BATCH_SIZE)
     test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE)
     
-    # Initialize model
     print("Initializing model...")
     model = BiLSTM_CRF(
         vocab_size=len(vocab.word2idx),
@@ -244,18 +236,15 @@ def main():
     optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
     trainer = Trainer(model, optimizer, device)
     
-    # Training loop
     print("\nStarting training...")
     for epoch in range(EPOCHS):
         avg_loss = trainer.train_epoch(train_loader)
         print(f"Epoch {epoch+1}/{EPOCHS} | Loss: {avg_loss:.4f}")
     
-    # Final evaluation on test set
     print("\n=== Final Evaluation on Test Set ===")
     y_true, y_pred = trainer.evaluate(test_loader, vocab)
     print(classification_report(y_true, y_pred))
     
-    # Save model and vocabulary
     print("\nSaving model and vocabulary...")
     torch.save(model.state_dict(), "bilstm_crf_model.pth")
     vocab.save("vocab.json")
