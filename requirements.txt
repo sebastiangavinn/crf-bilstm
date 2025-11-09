@@ -11,6 +11,8 @@ tqdm
 gensim
 neo4j
 
+PySastrawi
+
 numpy==1.26.4
 pandas==2.0.3
 

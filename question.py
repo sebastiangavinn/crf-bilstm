@@ -3,6 +3,10 @@ import re
 import torch
 from neo4j import GraphDatabase
 from main import BiLSTM_CRF
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+
+factory = StemmerFactory()
+stemmer = factory.create_stemmer()
 
 # =====================================
 # 1️⃣ MODEL & NER HELPER
@@ -62,9 +66,8 @@ class NERPredictor:
 # =====================================
 
 def preprocess_text(text: str):
-    text = re.sub(r"[^\w\s]", "", text)  # hapus tanda baca
-    text = text.lower()
-    return text.strip()
+    text = re.sub(r"[^\w\s]", "", text.lower())
+    return stemmer.stem(text.strip())
 
 
 # =====================================
@@ -79,14 +82,59 @@ class KnowledgeGraph:
     def close(self):
         self.driver.close()
 
-    def query_disease_by_symptom(self, symptom):
+    def query_full_reasoning(self, symptoms: list, organs: list):
         query = """
-        MATCH (p:Penyakit)-[:MEMILIKI_GEJALA]->(g:Gejala {nama: $symptom})
-        RETURN DISTINCT p.nama AS penyakit
+        // Mulai dari penyakit yang cocok dengan gejala / organ
+        MATCH (p:Penyakit)
+        OPTIONAL MATCH (p)-[r1:MEMILIKI_GEJALA]->(g:Gejala)
+        OPTIONAL MATCH (p)-[r2:MENYERANG]->(o:OrganTanaman)
+        OPTIONAL MATCH (p)-[:TERJADI_PADA]->(l:Lokasi)
+        OPTIONAL MATCH (virus:Penyakit)-[:MENYEBABKAN]->(p)
+        OPTIONAL MATCH (h:Hama)-[:MENYEBABKAN]->(virus)
+        WHERE (size($symptoms) = 0 OR g.nama IN $symptoms)
+          AND (size($organs) = 0 OR o.nama IN $organs)
+
+        WITH p, g, o, l, virus, h,
+             size(collect(DISTINCT g.nama)) AS jml_gejala,
+             size(collect(DISTINCT o.nama)) AS jml_organ,
+             (CASE WHEN virus IS NOT NULL THEN 0.1 ELSE 0 END) +
+             (CASE WHEN h IS NOT NULL THEN 0.1 ELSE 0 END) AS bonus
+
+        RETURN DISTINCT 
+            p.nama AS penyakit,
+            collect(DISTINCT g.nama) AS gejala,
+            collect(DISTINCT o.nama) AS organ,
+            collect(DISTINCT l.nama) AS lokasi,
+            virus.nama AS virus,
+            h.nama AS hama,
+            (0.6 * jml_gejala + 0.3 * jml_organ + bonus) AS skor
+        ORDER BY skor DESC
+        LIMIT 10
         """
         with self.driver.session(database=self.database) as session:
-            results = session.run(query, symptom=symptom)
-            return [r["penyakit"] for r in results]
+            results = session.run(query, symptoms=symptoms, organs=organs)
+            return [dict(r) for r in results]
+
+    def query_entity_details(self, name: str):
+        query = """
+        MATCH (e)
+        WHERE toLower(e.nama) = toLower($name)
+        OPTIONAL MATCH (e)-[:MEMILIKI_GEJALA]->(g:Gejala)
+        OPTIONAL MATCH (e)-[:MENYERANG]->(o:OrganTanaman)
+        OPTIONAL MATCH (e)-[:TERJADI_PADA]->(l:Lokasi)
+        OPTIONAL MATCH (cause)-[:MENYEBABKAN]->(e)
+        OPTIONAL MATCH (e)-[:MENYEBABKAN]->(d:Penyakit)
+        RETURN labels(e)[0] AS tipe,
+               e.nama AS nama,
+               collect(DISTINCT g.nama) AS gejala,
+               collect(DISTINCT o.nama) AS organ,
+               collect(DISTINCT l.nama) AS lokasi,
+               collect(DISTINCT cause.nama) AS penyebab,
+               collect(DISTINCT d.nama) AS penyakit_disebabkan
+        """
+        with self.driver.session(database=self.database) as session:
+            result = session.run(query, name=name).single()
+            return dict(result) if result else None
 
 
 # =====================================
@@ -102,19 +150,53 @@ class QAPipeline:
         clean_text = preprocess_text(question)
         results = self.predictor.predict(clean_text)
         entities = self.predictor.extract_entities(results)
-
         print(f"Entities ditemukan: {entities}")
 
-        if "GEJALA" not in entities:
-            print("Saya tidak menemukan gejala pada pertanyaan Anda.")
+        if "PENYAKIT" in entities or "HAMA" in entities:
+            for ent_type in ["PENYAKIT", "HAMA"]:
+                for ent in entities.get(ent_type, []):
+                    info = self.kg.query_entity_details(ent)
+                    if not info:
+                        print(f"Tidak ditemukan informasi untuk {ent_type.lower()} '{ent}'.")
+                        continue
+
+                    print(f"\n📘 Detail {ent_type.lower()}: {info['nama']}")
+                    if info["gejala"]:
+                        print(f"  • Gejala: {', '.join(info['gejala'])}")
+                    if info["organ"]:
+                        print(f"  • Menyerang: {', '.join(info['organ'])}")
+                    if info["lokasi"]:
+                        print(f"  • Sering terjadi pada: {', '.join(info['lokasi'])}")
+                    if info["penyebab"]:
+                        print(f"  • Disebabkan oleh: {', '.join(info['penyebab'])}")
+                    if info["penyakit_disebabkan"]:
+                        print(f"  • Menyebabkan: {', '.join(info['penyakit_disebabkan'])}")
             return
 
-        for symptom in entities["GEJALA"]:
-            diseases = self.kg.query_disease_by_symptom(symptom)
-            if diseases:
-                print(f"Gejala '{symptom}' dapat disebabkan oleh: {', '.join(diseases)}")
-            else:
-                print(f"Tidak ditemukan penyakit yang terkait dengan gejala '{symptom}'.")
+        gejala = entities.get("GEJALA", [])
+        organ = entities.get("ORGAN", [])
+
+        if not gejala and not organ:
+            print("Saya tidak menemukan gejala, organ, atau penyakit/hama dalam pertanyaan Anda.")
+            return
+
+        reasoning_results = self.kg.query_full_reasoning(symptoms=gejala, organs=organ)
+
+        if not reasoning_results:
+            print("Tidak ditemukan penyakit atau hama terkait.")
+            return
+
+        print("\n🧬 Kemungkinan hasil reasoning:")
+        for r in reasoning_results:
+            line = f"• {r['penyakit']} (skor: {r['skor']:.2f})"
+            if r['virus']:
+                line += f" → disebabkan oleh virus {r['virus']}"
+            if r['hama']:
+                line += f", dibawa oleh hama {r['hama']}"
+            if r['lokasi']:
+                locs = ', '.join(r['lokasi'])
+                line += f", sering terjadi pada {locs}"
+            print(line)
 
 
 # =====================================
