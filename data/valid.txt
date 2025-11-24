@@ -1,266 +1,744 @@
-Serangan	O
-kutu	B-HAMA
-perisai	I-HAMA
-hama	O
-menyebabkan	O
-daun	B-ORGAN
-menguning	B-GEJALA
-gejala	O
-dan	O
+Helai	B-BAGIAN_TANAMAN
 mengering	B-GEJALA
-gejala	O
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
 .	O
 
-Penyakit	O
+Daun	B-BAGIAN_TANAMAN
+kering	B-GEJALA
+diamelior	O
+blas	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+ada	O
+lubang	B-GEJALA
+besar	I-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+mengalami	O
+beluk	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+busuk	B-GEJALA
+oleh	O
+jamur	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+bercak	B-GEJALA
+oleh	O
+blas	B-PENYAKIT
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+koyak	B-GEJALA
+oleh	O
+cercospora	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+bercorak	B-GEJALA
+mozaik	I-GEJALA
+oleh	O
+virus	B-PENYAKIT
+tungro	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+busuk	B-GEJALA
+oleh	O
 busuk	B-PENYAKIT
-hitam	I-PENYAKIT
-pada	O
-biji	B-ORGAN
-membuat	O
-gabah	B-ORGAN
-menjadi	O
-kotor	O
-.	O
-
-Busuk	B-PENYAKIT
-pelepah	I-PENYAKIT
-penyakit	O
-ditandai	O
-dengan	O
-lesi	B-GEJALA
-abu	I-GEJALA
-abu	I-GEJALA
-gejala	O
-pada	O
-pelepah	B-ORGAN
-daun	I-ORGAN
-.	O
-
-oryzae	I-PENYAKIT
-penyakit	O
-.	O
-
-Busuk	B-PENYAKIT
-pelepah	I-PENYAKIT
-penyakit	O
-seringkali	O
-menghasilkan	O
-sklerotium	B-GEJALA
-gejala	O
-kecil	O
-pada	O
-pangkal	B-ORGAN
-batang	I-ORGAN
-.	O
-
-Keong	B-HAMA
-mas	I-HAMA
-terlihat	O
-memotong	O
-anakan	B-ORGAN
-muda	O
-di	O
-dekat	O
-permukaan	B-LOKASI
-air	I-LOKASI
-sawah	B-LOKASI
-.	O
-
-Penyakit	B-PENYAKIT
-busuk	I-PENYAKIT
-biji	I-PENYAKIT
-membuat	O
-gabah	B-ORGAN
-menjadi	O
-berjamur	B-GEJALA
-dan	O
-hitam	B-GEJALA
-.	O
-
-Bercak	O
-ungu	O
-kemerahan	O
-gejala	O
-pada	O
-pelepah	B-ORGAN
-bawah	O
-mengindikasikan	O
-serangan	O
-busuk	B-PENYAKIT
-pelepah	I-PENYAKIT
-bergaris	I-PENYAKIT
-penyakit	O
-.	O
-
-Busuk	B-PENYAKIT
-akar	I-PENYAKIT
-penyakit	O
-membuat	O
-tanaman	O
-padi	O
-organ	O
-menjadi	O
-kerdil	B-GEJALA
-gejala	O
-dan	O
-tidak	B-GEJALA
-subur	I-GEJALA
-.	O
-
-Kutu	B-HAMA
-putih	I-HAMA
-berada	O
-di	O
-pangkal	B-ORGAN
-batang	I-ORGAN
-dan	O
-menyebabkan	O
-pertumbuhan	B-GEJALA
-terhambat	I-GEJALA
-.	O
-
-Busuk	B-PENYAKIT
-pangkal	I-PENYAKIT
 batang	I-PENYAKIT
-penyakit	O
-membuat	O
-bagian	O
-bawah	O
-batang	B-ORGAN
-organ	O
-menjadi	O
-lunak	O
-gejala	O
 .	O
 
-Penyakit	B-PENYAKIT
+Pelepah	B-BAGIAN_TANAMAN
+bercendawan	B-GEJALA
+oleh	O
+cercospora	B-PENYAKIT
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+hitam	B-GEJALA
+akibat	O
+cercospora	B-PENYAKIT
+.	O
+
+Malai	B-BAGIAN_TANAMAN
+melengkung	B-GEJALA
+oleh	O
+walang	B-HAMA
+sangit	I-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+hitam	I-GEJALA
+oleh	O
+walang	B-HAMA
+sangit	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+kayak	O
+kering	B-GEJALA
+terbakar	I-GEJALA
+akibat	O
+blas	B-PENYAKIT
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+bercak	B-GEJALA
+oleh	O
+cercospora	B-PENYAKIT
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+membusuk	B-GEJALA
+akibat	O
+busuk	B-PENYAKIT
+akar	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+menghitam	B-GEJALA
+di	O
+tepi	B-BAGIAN_TANAMAN
+oleh	O
+hawar	B-PENYAKIT
+daun	I-PENYAKIT
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+busuk	B-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+akar	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+menghitam	B-GEJALA
+oleh	O
+jamur	B-PENYAKIT
+.	O
+
+Malai	B-BAGIAN_TANAMAN
+kurus	B-GEJALA
+oleh	O
+virus	B-PENYAKIT
+kerdil	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+keropos	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+retak	B-GEJALA
+karena	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+hitam	B-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+batang	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+gosong	B-GEJALA
+oleh	O
+blas	B-PENYAKIT
+.	O
+
+Helai	B-BAGIAN_TANAMAN
+daun	I-BAGIAN_TANAMAN
+terlipat	B-GEJALA
+oleh	O
+pelipat	B-HAMA
+daun	I-HAMA
+.	O
+
+Malai	B-BAGIAN_TANAMAN
+jadi	B-GEJALA
+hampa	I-GEJALA
+oleh	O
+serangan	O
+walang	B-HAMA
+sangit	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+menjadi	O
+pucat	B-GEJALA
+karena	O
+walang	B-HAMA
+sangit	I-HAMA
+.	O
+
+Helai	B-BAGIAN_TANAMAN
+daun	I-BAGIAN_TANAMAN
+berlubang	B-GEJALA
+oleh	O
+kutu	B-HAMA
+putih	I-HAMA
+.	O
+
+Malai	B-BAGIAN_TANAMAN
+tidak	O
+terisi	O
+karena	O
+hama	B-HAMA
+walang	I-HAMA
+sangit	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+mudah	O
+runtuh	B-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+pelepah	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Helai	B-BAGIAN_TANAMAN
+daun	I-BAGIAN_TANAMAN
+pucat	B-GEJALA
+gara-gara	O
+tungro	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+muncul	B-GEJALA
+bercak	B-GEJALA
+putih	B-GEJALA
+oleh	O
+ulat	B-HAMA
+putih	I-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+kelihatan	O
+kecil	B-GEJALA
+gara-gara	O
+virus	B-PENYAKIT
+kerdil	I-PENYAKIT
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+lubang	B-GEJALA
+oleh	O
+tikus	B-HAMA
+sawah	I-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+bercak	B-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+akar	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+hitam	B-GEJALA
+karena	O
+jamur	B-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+rapuh	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+layu	B-GEJALA
+oleh	O
+cercospora	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+terserang	O
+virus	B-PENYAKIT
+tungro	I-PENYAKIT
+jadinya	O
+kecil	B-GEJALA
+kecil	I-GEJALA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+layu	B-GEJALA
+oleh	O
+blas	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+merunduk	B-GEJALA
+karena	O
+wereng	B-HAMA
+batang	I-HAMA
+coklat	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+bercak	B-GEJALA
+oleh	O
+wereng	B-HAMA
+batang	I-HAMA
+coklat	I-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+bercak	B-GEJALA
+oleh	O
+keong	B-HAMA
+mas	I-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+oleh	O
+hawar	B-PENYAKIT
+daun	I-PENYAKIT
+bakteri	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+luka	B-GEJALA
+oleh	O
+ulat	B-HAMA
+grayak	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+bengkok	B-GEJALA
+akibat	O
+serangan	O
+wereng	B-HAMA
+hijau	I-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+kering	B-GEJALA
+oleh	O
+keong	B-HAMA
+mas	I-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+bolong	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+muncul	B-GEJALA
+bercak	B-GEJALA
+abu-abu	B-GEJALA
+karena	O
+blas	B-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+patah	B-GEJALA
+karena	O
+tikus	B-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+bercak	B-GEJALA
+hitam	I-GEJALA
+oleh	O
+jamur	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+oleh	O
+blas	B-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+busuk	B-GEJALA
+di	O
+pangkal	B-BAGIAN_TANAMAN
+oleh	O
+tikus	B-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+hitam	B-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+batang	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+oplos	O
+kuning	B-GEJALA
+kehijauan	O
+oleh	O
+wereng	B-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+timbul	B-GEJALA
+pustula	I-GEJALA
+coklat	B-GEJALA
+akibat	O
+karat	B-PENYAKIT
+daun	I-PENYAKIT
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+busuk	B-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+pelepah	I-PENYAKIT
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+karena	O
+hawar	B-PENYAKIT
+daun	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+bolong	B-GEJALA
+banyak	O
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+kering	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Helai	B-BAGIAN_TANAMAN
+daun	I-BAGIAN_TANAMAN
+putih	B-GEJALA
+di	O
+tengah	B-BAGIAN_TANAMAN
+oleh	O
+cercospora	B-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+kering	B-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+akar	I-PENYAKIT
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+oleh	O
+ulat	B-HAMA
+grayak	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+mengering	B-GEJALA
+secara	O
+bercak	B-GEJALA
+oleh	O
+blas	B-PENYAKIT
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+oleh	O
+virus	B-PENYAKIT
+tungro	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+kering	B-GEJALA
+oleh	O
+walang	B-HAMA
+sangit	I-HAMA
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+menghitam	B-GEJALA
+dan	O
+berair	B-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+pelepah	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+keropos	B-GEJALA
+oleh	O
+ulat	B-HAMA
+penggulung	I-HAMA
+daun	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+kayak	O
+tergosok	O
+air	O
+keluar	B-GEJALA
+bercak	B-GEJALA
+putih	B-GEJALA
+kerena	O
+hawar	B-PENYAKIT
+daun	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+pucat	B-GEJALA
+karena	O
+virus	B-PENYAKIT
+tungro	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+mengalami	O
+bercak	B-GEJALA
+oval	B-GEJALA
+akibat	O
+penyakit	O
+cercospora	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+mengalami	O
+gejala	B-GEJALA
+yellow	B-GEJALA
+dwarf	B-GEJALA
+virus	B-PENYAKIT
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+busuk	B-GEJALA
+oleh	O
+jamur	B-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+tanamannya	O
+pada	O
+patah	B-GEJALA
+dimakan	O
+tikus	B-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+menghitam	B-GEJALA
+akibat	O
+jamur	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+keriting	B-GEJALA
+gara-gara	O
+virus	B-PENYAKIT
+kerdil	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+retak	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+berlendir	B-GEJALA
+oleh	O
+hawar	B-PENYAKIT
+daun	I-PENYAKIT
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+hitam	I-GEJALA
+oleh	O
+ulat	B-HAMA
+grayak	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+kayak	O
+ada	O
+tepung	B-GEJALA
+putih	B-GEJALA
+itu	O
+jamur	B-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+berlubang	B-GEJALA
+akibat	O
+ulang	B-HAMA
+grayak	I-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+mengalami	O
+kerusakan	B-GEJALA
+parah	I-GEJALA
+akibat	O
+tikus	B-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+kalah	O
+tumbuh	O
+karena	O
+penggerek	B-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+muncul	B-GEJALA
+bercak	B-GEJALA
+berwarna	O
+coklat	B-GEJALA
+akibat	O
+hawar	B-PENYAKIT
+daun	I-PENYAKIT
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+ditumbuhi	B-GEJALA
+jamur	I-GEJALA
+oleh	O
+cercospora	B-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+kering	B-GEJALA
+sebelum	O
+malai	O
+keluar	O
+karena	O
+penggerek	B-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+layu	B-GEJALA
+oleh	O
+virus	B-PENYAKIT
 kerdil	I-PENYAKIT
 hampa	I-PENYAKIT
-penyakit	O
-membuat	O
-tanaman	O
-menghasilkan	O
-malai	B-ORGAN
-kosong	B-GEJALA
-gejala	O
-sepenuhnya	O
 .	O
 
-Busuk	B-PENYAKIT
-akar	I-PENYAKIT
-penyakit	O
-menyebabkan	O
-tanaman	O
-organ	O
-menjadi	O
-layu	B-GEJALA
-gejala	O
-dan	O
-mudah	O
-dicabut	O
-.	O
-
-Akar	B-ORGAN
-padi	O
-organ	O
-yang	O
-terserang	O
-nematoda	B-HAMA
-hama	O
-terlihat	O
-bengkak	B-GEJALA
-gejala	O
-dan	O
-membusuk	O
-.	O
-
-Belalang	B-HAMA
-hijau	I-HAMA
-hama	O
-meninggalkan	O
-bekas	B-GEJALA
-gigitan	I-GEJALA
-gejala	O
-yang	O
+Daun	B-BAGIAN_TANAMAN
+berlubang	B-GEJALA
 tidak	O
-beraturan	O
-pada	O
-tepi	O
-daun	B-ORGAN
+beraturan	B-GEJALA
+karena	O
+ulat	B-HAMA
+grayak	I-HAMA
 .	O
 
-Kutu	B-HAMA
-putih	I-HAMA
-hama	O
-pada	O
-pangkal	B-ORGAN
-batang	I-ORGAN
-membuat	O
-tanaman	O
-menjadi	O
-lemah	O
-gejala	O
+Akar	B-BAGIAN_TANAMAN
+kering	B-GEJALA
+oleh	O
+virus	B-PENYAKIT
+tungro	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+semua	O
+gara-gara	O
+wereng	B-HAMA
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+menghitam	B-GEJALA
+oleh	O
+jamur	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+muncul	B-GEJALA
+bercak	B-GEJALA
+hitam	B-GEJALA
+akibat	O
+jamur	B-PENYAKIT
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+layu	B-GEJALA
+oleh	O
+blas	B-PENYAKIT
+.	O
+
+Malai	B-BAGIAN_TANAMAN
+tumbuh	O
+kecil	B-GEJALA
 dan	O
-sulit	B-GEJALA
-tumbuh	I-GEJALA
+kurus	B-GEJALA
+oleh	O
+virus	B-PENYAKIT
 .	O
 
-Pada	O
-musim	B-LOKASI
-hujan	I-LOKASI
-,	O
-penyakit	B-PENYAKIT
-hawar	I-PENYAKIT
-pelepah	I-PENYAKIT
-penyakit	O
-menyebabkan	O
-busuk	B-GEJALA
-basah	I-GEJALA
-gejala	O
-pada	O
-tanaman	O
+Daun	B-BAGIAN_TANAMAN
+mengalami	O
+blight	B-GEJALA
+oleh	O
+Xanthomonas	B-PENYAKIT
 .	O
 
-Walang	B-HAMA
-sangit	I-HAMA
-hama	O
-meninggalkan	O
-noda	B-GEJALA
-gejala	O
-berbau	O
-gejala	O
-pada	O
-bulir	B-ORGAN
-organ	O
-padi	O
-yang	O
-dihisap	O
+Daun	B-BAGIAN_TANAMAN
+ada	O
+bintik	B-GEJALA
+kecil	B-GEJALA
+tapi	O
+banyak	B-GEJALA
+oleh	O
+karat	B-PENYAKIT
+daun	I-PENYAKIT
 .	O
 
-Tikus	B-HAMA
-hama	O
-membuat	O
-tanaman	O
-rebah	B-GEJALA
-gejala	O
-dan	O
-memakan	O
-malai	B-ORGAN
-organ	O
-padi	O
+Daun	B-BAGIAN_TANAMAN
+kering	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
 .	O
 
-Tikus	B-HAMA
-hama	O
-menggerogoti	O
-batang	B-ORGAN
-organ	O
-padi	O
-dan	O
-membuat	O
-malai	B-ORGAN
-organ	O
-jatuh	O
-ke	O
-tanah	O
+Batang	B-BAGIAN_TANAMAN
+kering	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
 .	O
+

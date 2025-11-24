@@ -1,15 +1,17 @@
-import torch
 import json
+
+import torch
 import torch.nn as nn
-from torchcrf import CRF
-from torch.utils.data import Dataset, DataLoader
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
+from sklearn.model_selection import train_test_split
+from torch.utils.data import DataLoader, Dataset
+from torchcrf import CRF
 from tqdm import tqdm
 
 # =============================
 # 1️⃣ LOAD DAN PARSE DATA
 # =============================
+
 
 def load_data(filepath):
     sentences = []
@@ -33,9 +35,11 @@ def load_data(filepath):
             tags.append(tag_seq)
     return sentences, tags
 
+
 # =============================
 # 2️⃣ ENCODER
 # =============================
+
 
 def build_vocab(sequences):
     vocab = {"<PAD>": 0, "<UNK>": 1}
@@ -46,6 +50,7 @@ def build_vocab(sequences):
                 vocab[tok_lower] = len(vocab)
     return vocab
 
+
 def build_tagset(tags):
     tag2idx = {}
     for seq in tags:
@@ -54,9 +59,11 @@ def build_tagset(tags):
                 tag2idx[tag] = len(tag2idx)
     return tag2idx
 
+
 # =============================
 # 3️⃣ DATASET CLASS
 # =============================
+
 
 class NERDataset(Dataset):
     def __init__(self, sentences, tags, word2idx, tag2idx, max_len=100):
@@ -82,26 +89,33 @@ class NERDataset(Dataset):
             X += [self.word2idx["<PAD>"]] * pad_len
             y += [self.tag2idx[self.pad_tag]] * pad_len
         else:
-            X = X[:self.max_len]
-            y = y[:self.max_len]
+            X = X[: self.max_len]
+            y = y[: self.max_len]
 
         return torch.tensor(X), torch.tensor(y)
+
 
 # =============================
 # 4️⃣ MODEL BiLSTM + CRF
 # =============================
 
+
 class BiLSTM_CRF(nn.Module):
     def __init__(self, vocab_size, tagset_size, embedding_dim=100, hidden_dim=128):
         super(BiLSTM_CRF, self).__init__()
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
-        self.lstm = nn.LSTM(embedding_dim, hidden_dim // 2,
-                            num_layers=1, bidirectional=True, batch_first=True)
+        self.lstm = nn.LSTM(
+            embedding_dim,
+            hidden_dim // 2,
+            num_layers=1,
+            bidirectional=True,
+            batch_first=True,
+        )
         self.hidden2tag = nn.Linear(hidden_dim, tagset_size)
         self.crf = CRF(tagset_size, batch_first=True)
 
     def forward(self, sentences, tags=None):
-        mask = sentences != 0 
+        mask = sentences != 0
         embeds = self.embedding(sentences)
         lstm_out, _ = self.lstm(embeds)
         emissions = self.hidden2tag(lstm_out)
@@ -113,25 +127,29 @@ class BiLSTM_CRF(nn.Module):
             pred = self.crf.decode(emissions, mask=mask)
             return pred
 
+
 # =============================
 # 5️⃣ TRAINING PIPELINE
 # =============================
+
 
 def train_model(model, train_loader, optimizer, epochs=5):
     model.train()
     for epoch in range(epochs):
         total_loss = 0
-        for X, y in tqdm(train_loader, desc=f"Epoch {epoch+1}"):
+        for X, y in tqdm(train_loader, desc=f"Epoch {epoch + 1}"):
             optimizer.zero_grad()
             loss = model(X, y)
             loss.backward()
             optimizer.step()
             total_loss += loss.item()
-        print(f"Epoch {epoch+1} Loss: {total_loss / len(train_loader):.4f}")
+        print(f"Epoch {epoch + 1} Loss: {total_loss / len(train_loader):.4f}")
+
 
 # =============================
 # 6️⃣ EVALUATION
 # =============================
+
 
 def evaluate_model(model, val_loader, idx2tag):
     model.eval()
@@ -150,13 +168,14 @@ def evaluate_model(model, val_loader, idx2tag):
 
     print(classification_report(true_tags, pred_tags, digits=4))
 
+
 # =============================
 # 7️⃣ MAIN
 # =============================
 
 if __name__ == "__main__":
     # load data
-    sentences, tags = load_data("data/processed/ner_data.conll")
+    sentences, tags = load_data("data/processed/ner_dataset_500.conll")
 
     # build vocab
     word2idx = build_vocab(sentences)
@@ -190,5 +209,3 @@ if __name__ == "__main__":
 
     # eval
     evaluate_model(model, val_loader, idx2tag)
-    
-

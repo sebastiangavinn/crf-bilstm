@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-TOKENS_FILE = Path("data/processed/gazetteer.json")
+TOKENS_FILE = Path("data/processed/gazetteer_new.json")
 RELATIONS_FILE = Path("data/processed/relations.json")
 OUTPUT_FILE = Path("data/processed/import_graph.cypher")
 
@@ -9,8 +9,7 @@ label_map = {
     "HAMA": "Hama",
     "PENYAKIT": "Penyakit",
     "GEJALA": "Gejala",
-    "ORGAN": "OrganTanaman",
-    "LOKASI": "Lokasi"
+    "BAGIAN_TANAMAN": "BagianTanaman"
 }
 
 with open(TOKENS_FILE, "r", encoding="utf-8") as f:

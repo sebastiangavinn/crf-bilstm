@@ -1,0 +1,501 @@
+symptom,cause,type,part
+Tanaman padi mengalami klorosis pada daun karena serangan wereng batang coklat.,wereng,Pest,daun
+Daun menguning dan mengering akibat blas.,blas,Disease,daun
+Malai menjadi hampa karena walang sangit ( Leptocorisa spp. ).,walang sangit,Pest,malai
+Bercak coklat pada daun menjadi meluas karena penyakit garis coklat.,,,daun
+Batang patah karena penggerek batang padi ( Scirpophaga incertulas ).,penggerek,Pest,batang
+Daun membusuk akibat hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Akar menghitam dan lapuk karena busuk akar.,busuk akar,Disease,akar
+Daun terlihat berbercak kuning disebabkan tungro virus.,tungro,Disease,daun
+Klorosis pada helai daun dengan bintik coklat karena cercospora.,cercospora,Disease,daun
+Daun menggulung dan terlipat oleh hama pelipat daun ( Cnaphalocrocis medinalis ).,hama pelipat daun,Pest,daun
+Batang menjadi busuk karena serangan keong mas.,keong mas,Pest,batang
+Akar terpotong oleh keong sawah.,,,akar
+Daun mengalami nekrosis akibat tungro.,tungro,Disease,daun
+Daun menguning kemudian runtuh karena tikus sawah.,tikus,Pest,daun
+Malai mengering tanpa bulir karena walang sangit.,walang sangit,Pest,malai
+Daun berbercak air akibat blas.,blas,Disease,daun
+Daun menghitam di ujung karena hawar daun.,hawar daun,Disease,daun
+Daun bergelombang karena wereng batang coklat.,wereng,Pest,daun
+Akar terlihat terserang busuk akar.,busuk akar,Disease,akar
+Daun melipat pada pagi hari akibat pelipat daun.,,,daun
+Daun mengalami klorosis interveinal karena tungro.,tungro,Disease,daun
+Batang mengalami beluk akibat penggerek batang.,penggerek,Pest,batang 
+Daun berlubang tidak beraturan karena ulat grayak.,ulat,Pest,daun
+Daun mengalami bercak oval akibat penyakit cercospora.,cercospora,Disease,daun
+Daun berubah coklat dan kering karena wereng batang.,wereng,Pest,daun
+Ujung daun mengering karena blas.,blas,Disease,daun
+Malai tidak mengisi karena tungro.,tungro,Disease,malai
+Helai daun terdampar lemas akibat keong mas.,keong mas,Pest,daun
+Daun muncul bercak putih oleh ulat putih.,ulat,Pest,daun
+Panicle patah langusung karena tikus.,tikus,Pest,
+Daun mengalami chlorotic streak oleh virus tungro.,virus tungro,Disease,daun
+Daun bergaris kuning akibat serangan penggerek batang.,penggerek,Pest,daun
+Bercak air pada daun menjadi meluas akibat Xanthomonas oryzae.,,,daun
+Daun menjadi pucat karena walang sangit.,walang sangit,Pest,daun
+Pelepah mengering akibat cercospora.,cercospora,Disease,pelepah
+Daun mengalami gejala yellow dwarf virus.,,,daun
+Daun muncul bercak abu-abu karena blas.,blas,Disease,daun
+Tunas tidak berkembang karena wereng hijau.,wereng,Pest,
+Daun menjadi rapuh akibat serangan keong mas.,keong mas,Pest,daun
+Batang berlubang oleh penggerek batang.,penggerek,Pest,batang
+Akar mengalami kerusakan parah akibat tikus.,tikus,Pest,akar
+Daun menjadi kusam karena tungro.,tungro,Disease,daun
+Daun bergerigi oleh ulat grayak.,ulat,Pest,daun
+Daun terlihat mati ujungnya akibat wereng coklat.,wereng,Pest,daun
+Malai keluar tidak sempurna karena blas.,blas,Disease,malai
+Daun berwarna mozaik karena virus tungro.,virus tungro,Disease,daun
+Helai mengering oleh penggerek batang.,penggerek,Pest,batang
+Daun berwarna coklat ke kehitaman karena hawar daun.,hawar daun,Disease,daun
+Akar gagal menyerap air oleh kerusakan tikus.,tikus,Pest,akar
+Daun mengalami blight oleh Xanthomonas.,,,daun
+Pelepah menghitam karena cercospora.,cercospora,Disease,pelepah
+Daun mengering secara bercak oleh blas.,blas,Disease,daun
+Batang menghitam setelah serangan penggerek batang.,penggerek,Pest,batang
+Daun berlubang kecil-kecil akibat kutu putih.,kutu putih,Pest,daun
+Pangkal batang busuk oleh busuk akar.,busuk akar,Disease,batang
+Malai menjadi kosong akibat serangan walang sangit.,walang sangit,Pest,malai
+Daun mengalami chlorosis akibat tungro.,tungro,Disease,daun
+Akar terpotong oleh keong mas.,keong mas,Pest,akar
+Ujung daun menggulung oleh wereng batang coklat.,wereng,Pest,daun
+Daun berbintik putih oleh penyakit cercospora.,cercospora,Disease,daun
+Batang patah oleh tikus sawah.,tikus,Pest,batang
+Daun berubah kuning secara tidak merata karena virus tungro.,virus tungro,Disease,daun
+Helai daun terlihat menguning akibat serangan penggerek batang.,penggerek,Pest,daun
+Daun muncul bercak berwarna coklat akibat hawar daun.,hawar daun,Disease,daun
+Malai tidak sempurna keluar karena blas.,blas,Disease,malai
+Daun membentuk mozaik akibat virus tungro.,virus tungro,Disease,daun
+Akar melemah dan layu karena tikus.,tikus,Pest,akar
+Pelepah daun mengering oleh cercospora.,cercospora,Disease,daun
+Daun terserang kutu putih hingga berlubang.,kutu putih,Pest,daun
+Akar terkelupas oleh keong mas.,keong mas,Pest,akar
+Batang mengalami beluk oleh penggerek batang.,penggerek,Pest,batang
+Daun menghitam di tepian akibat blas.,blas,Disease,daun
+Daun tampak layu oleh wereng coklat.,wereng,Pest,daun
+Akar membusuk akibat busuk akar.,busuk akar,Disease,akar
+Daun berubah abu-abu akibat penyakit blas.,blas,Disease,daun
+Pangkal batang ditandai busuk karena tikus.,tikus,Pest,batang
+Malai terlihat kosong oleh walang sangit.,walang sangit,Pest,malai
+Daun memucat oleh virus tungro.,virus tungro,Disease,daun
+Daun patah di bagian tengah oleh penggerek.,penggerek,Pest,daun
+Batang layu oleh wereng coklat.,wereng,Pest,batang
+Daun robek oleh hama ulat.,ulat,Pest,daun
+Helai daun berkerut akibat serangan kutu putih.,kutu putih,Pest,daun
+Daun menunjukkan bintik air oleh blas.,blas,Disease,daun
+Pelepah menguning karena hawar daun.,hawar daun,Disease,daun
+Akar berbau busuk akibat busuk akar.,busuk akar,Disease,akar
+Daun berwarna mozaik tidak rata karena virus tungro.,virus tungro,Disease,daun
+Batang ditumbuhi bercak coklat karena penggerek batang.,penggerek,Pest,batang
+Daun bengkok akibat serangan wereng hijau.,wereng,Pest,daun
+Akar putus oleh keong mas.,keong mas,Pest,akar
+Malai kurang mengisi karena walang sangit.,walang sangit,Pest,malai
+Daun menjadi kering oleh blas.,blas,Disease,daun
+Batang terkelupas karena tikus.,tikus,Pest,batang
+Akar mengering akibat serangan penggerek batang.,penggerek,Pest,batang
+Pelepah daun menjadi hitam oleh cercospora.,cercospora,Disease,daun
+Daun merunduk karena wereng batang coklat.,wereng,Pest,daun
+Batang muncul lubang oleh penggerek batang.,penggerek,Pest,batang
+Daun mengalami pucat oleh tungro.,tungro,Disease,daun
+Daun banyak yang menguning gara-gara wereng coklat.,wereng,Pest,daun
+Batang tanamannya pada patah dimakan tikus.,tikus,Pest,batang
+Daun kayak ada bercak hitam itu blas katanya.,blas,Disease,daun
+Malai kurang isi gara-gara walang sangit.,walang sangit,Pest,malai
+Daun ngelipat sendiri diserang pelipat daun.,,,daun
+Helai daun jadi pucat kena virus tungro.,virus tungro,Disease,daun
+Akar busuk parah karena busuk akar.,busuk akar,Disease,akar
+Batang mengering sebelum malai keluar akibat penggerek.,penggerek,Pest,batang
+Daun botak dimakan ulat grayak.,ulat,Pest,daun
+Pelepah daun jadi gelap karena cercospora.,cercospora,Disease,daun
+Daun oplos kuning kehijauan oleh wereng.,wereng,Pest,daun
+Malai jadi hampa oleh serangan walang sangit.,walang sangit,Pest,malai
+Daun melengkung kayak sabit karena pelipat daun.,,,daun
+Akar patah oleh keong mas.,keong mas,Pest,akar
+Batang udah kosong di dalam karena penggerek batang.,penggerek,Pest,batang
+Daun bergaris putih itu ciri cercospora.,cercospora,Disease,daun
+Akar kurang kuat gara-gara tikus.,tikus,Pest,akar
+Daun muncul bercak coklat oleh blas lagi.,blas,Disease,daun
+Malai banyak yang kosong serangan walang sangit nih.,walang sangit,Pest,malai
+Daun kayak tergosok air keluar bercak putih kerena hawar daun.,hawar daun,Disease,daun
+Helai daun pucat gara-gara tungro.,tungro,Disease,daun
+Batang bengkok kena wereng hijau.,wereng,Pest,batang
+Daun diserang kutu putih jadi bolong.,kutu putih,Pest,daun
+Akar diserang keong langsung runtuh.,,,akar
+Pelepah kering karena cercospora.,cercospora,Disease,pelepah
+Daun udah ngelipet sendiri tuh pelipat daun.,,,daun
+Malai kurang isi akibat pengisapan walang.,,,malai
+Batang patah karena tikus.,tikus,Pest,batang
+Daun menghitam oleh hawar daun.,hawar daun,Disease,daun
+Daun kayak kering terbakar akibat blas.,blas,Disease,daun
+Batang bolong diserang penggerek.,penggerek,Pest,batang
+Akar keropos gara-gara tikus.,tikus,Pest,akar
+Daun robek oleh ulat grayak.,ulat,Pest,daun
+Daun ada garis kuning oleh wereng.,wereng,Pest,daun
+Batang kering oleh penggerek batang.,penggerek,Pest,batang
+Malai gagal isi oleh virus tungro.,virus tungro,Disease,malai
+Daun menggulung oleh pelipat daun.,,,daun
+Pelepah hitam akibat cercospora.,cercospora,Disease,pelepah
+Daun menguning semua gara-gara wereng.,wereng,Pest,daun
+Batang busuk di pangkal oleh tikus.,tikus,Pest,batang
+Helai daun berlubang oleh kutu putih.,kutu putih,Pest,daun
+Daun terserang virus tungro jadinya kecil kecil.,virus tungro,Disease,daun
+Akar langsung busuk oleh busuk akar.,busuk akar,Disease,akar
+Daun ada bercak abu-abu karena blas.,blas,Disease,daun
+Malai kosong diserang walang sangit.,walang sangit,Pest,malai
+Daun berkarat oleh karat daun.,karat daun,Disease,daun
+Batang mengeluarkan lendir akibat busuk batang.,busuk batang,Disease,batang
+Daun ada garis merah itu katanya gejala karat daun.,karat daun,Disease,daun
+Tangkai malai bercendawan karena busuk pelepah.,busuk pelepah,Disease,pelepah
+Daun tidak tumbuh normal akibat virus kerdil.,,,daun
+Daun mengalami pustula kuning karena karat daun.,karat daun,Disease,daun
+Pelepah menghitam dan berair oleh busuk pelepah.,busuk pelepah,Disease,pelepah
+Helai daun menjadi pucat oleh infeksi virus.,,,daun
+Daun kayak ada tepung putih itu jamur.,jamur,Disease,daun
+Batang terlihat bercendawan oleh penyakit jamur.,jamur,Disease,batang
+Daun bercak bundar tepinya kuning karena penyakit blas.,blas,Disease,daun
+Daun mengering di tengah tapi ujungnya masih hijau karena hawar daun.,hawar daun,Disease,daun
+Akar agak busuk gara-gara penyakit akar.,,,akar
+Daun muncul bercak coklat melebar oleh cercospora.,cercospora,Disease,daun
+Batang jadi rapuh gara busuk batang.,busuk batang,Disease,batang
+Daun salurannya tidak bersih tampak chlorosis oleh virus.,,,daun
+Pelepah ada jamur warna hitam.,jamur,Disease,pelepah
+Daun ada bintik hitam di tengah karena jamur.,jamur,Disease,daun
+Helai daun pucat dan menguning oleh virus.,,,daun
+Daun mudah runtuh oleh busuk pelepah.,busuk pelepah,Disease,daun
+Malai kadang berjamur ketika pelepah busuk.,jamur,Disease,pelepah
+Daun ada luka memanjang oleh infeksi bakteri.,bakteri,Disease,daun
+Batang berwarna coklat tidak wajar akibat infeksi jamur.,jamur,Disease,batang
+Daun muncul bercak besar oleh busuk batang.,busuk batang,Disease,daun
+Akar kelihatan kecil gara-gara virus kerdil.,,,akar
+Daun putih di tepi karena cercospora.,cercospora,Disease,daun
+Pelepah bercendawan lembab dari busuk pelepah.,busuk pelepah,Disease,pelepah
+Helai daun alurnya kuning oleh virus tungro.,virus tungro,Disease,daun
+Daun jadi kotor bercendawan putih karena jamur.,jamur,Disease,daun
+Batang kisut dan kering oleh busuk batang.,busuk batang,Disease,batang
+Malai mulai bercendawan setelah pelepah diserang jamur.,jamur,Disease,pelepah
+Daun kelihatan layu oleh virus kerdil.,,,daun
+Batang ada garis gelap oleh penggerek batang.,penggerek,Pest,batang
+Helai daun bercahaya pucat oleh infeksi virus.,,,daun
+Daun muncul bercak hitam akibat jamur.,jamur,Disease,daun
+Akar keriting oleh virus kerdil.,,,akar
+Daun gosong oleh penyakit blas.,blas,Disease,daun
+Batang kering sampai atas karena busuk batang.,busuk batang,Disease,batang
+Pelepah terbelah oleh cercospora.,cercospora,Disease,pelepah
+Daun timbul pustula coklat akibat karat daun.,karat daun,Disease,daun
+Helai daun keriput oleh virus kerdil.,,,daun
+Malai tumbuh kecil dan kurus oleh virus.,,,malai
+Daun bercahaya kekuningan oleh infeksi virus.,,,daun
+Daun keriting gara-gara virus kerdil.,,,daun
+Batang bolong banyak oleh penggerek batang.,penggerek,Pest,batang
+Helai daun bercendawan karena jamur.,jamur,Disease,daun
+Daun ada bercak ungu oleh cercospora.,cercospora,Disease,daun
+Pelepah busuk oleh busuk pelepah.,busuk pelepah,Disease,pelepah
+Daun mengering kayak kesengat matahari oleh blas.,blas,Disease,daun
+Akar mengerut gara-gara tikus.,tikus,Pest,akar
+Daun lecek serangan ulat grayak.,ulat,Pest,daun
+Batang kalah tumbuh karena penggerek.,penggerek,Pest,batang
+Daun ada bintik kecil tapi banyak oleh karat daun.,karat daun,Disease,daun
+Malai hampa banyak karena walang sangit.,walang sangit,Pest,malai
+Daun nampak seperti terbakar oleh hawar daun.,hawar daun,Disease,daun
+Helai daun keriput karena virus kerdil.,,,daun
+Batang diserang ulat grayak jadi rusak.,ulat,Pest,batang
+Daun ada bercak air itu blas.,blas,Disease,daun
+Akar busuk parah oleh busuk akar.,busuk akar,Disease,akar
+Daun robek di pinggir oleh kutu putih.,kutu putih,Pest,daun
+Batang menghitam oleh jamur.,jamur,Disease,batang
+Daun gugur dengan sendirinya gara-gara virus.,,,daun
+Pelepah koyak oleh cercospora.,cercospora,Disease,pelepah
+Malai tidak terisi karena hama walang sangit.,walang sangit,Pest,malai
+Daun ada bercak hitam oleh jamur.,jamur,Disease,daun
+Batang melemah kena penggerek.,penggerek,Pest,batang
+Daun timbul garis kuning oleh wereng hijau.,wereng,Pest,daun
+Helai daun mudah patah oleh busuk pelepah.,busuk pelepah,Disease,daun
+Akar putih busuk oleh infeksi jamur.,jamur,Disease,akar
+Daun kering separo oleh hawar daun.,hawar daun,Disease,daun
+Batang keropos serangan tikus.,tikus,Pest,batang
+Daun ada lubang memanjang oleh penggerek batang.,penggerek,Pest,daun
+Malai berwarna coklat oleh walang sangit.,walang sangit,Pest,malai
+Daun menjadi kaku karena virus.,,,daun
+Helai daun mengepulkan jamur hitam.,jamur,Disease,daun
+Akar terkelupas oleh keong mas.,keong mas,Pest,akar
+Daun ada noda ungu oleh cercospora.,cercospora,Disease,daun
+Batang busuk oleh busuk batang.,busuk batang,Disease,batang
+Daun geser warna kuning oleh virus tungro.,virus tungro,Disease,daun
+Malai retak oleh serangan walang sangit.,walang sangit,Pest,malai
+Daun keriting oleh wereng hijau.,wereng,Pest,daun
+Batang ada luka hitam oleh penggerek.,penggerek,Pest,batang
+Daun berlubang kecil oleh kutu putih.,kutu putih,Pest,daun
+Helai daun menghitam oleh hawar daun.,hawar daun,Disease,daun
+Batang kecil kerdil oleh virus kerdil.,,,batang
+Daun lembek oleh busuk pelepah.,busuk pelepah,Disease,daun
+Akar hitam oleh infeksi jamur.,jamur,Disease,akar
+Daun menjadi bergelombang karena wereng.,wereng,Pest,daun
+Batang berlubang besar oleh penggerek batang.,penggerek,Pest,batang
+Daun bercak abu-abu oleh blas.,blas,Disease,daun
+Helai daun putih di tengah oleh cercospora.,cercospora,Disease,daun
+Malai kosong gara-gara walang sangit.,walang sangit,Pest,malai
+Daun menghitam di tepi oleh hawar daun.,hawar daun,Disease,daun
+Batang kering sebelum malai keluar karena penggerek.,penggerek,Pest,batang
+Daun merunduk karena wereng batang coklat.,wereng,Pest,daun
+Pelepah mengering oleh cercospora.,cercospora,Disease,pelepah
+Akar busuk oleh busuk akar.,busuk akar,Disease,akar
+Daun keluar lesi mata oleh blas.,blas,Disease,daun
+Batang patah oleh tikus.,tikus,Pest,batang
+Daun berbintik putih karena kutu putih.,kutu putih,Pest,daun
+Malai hampa oleh virus tungro.,virus tungro,Disease,malai
+Daun berlendir oleh hawar daun.,hawar daun,Disease,daun
+Batang kosong karena penggerek batang.,penggerek,Pest,batang
+Daun robek oleh ulat grayak.,ulat,Pest,daun
+Akar putus digerogoti keong mas.,keong mas,Pest,akar
+Daun bercorak mozaik karena virus tungro.,virus tungro,Disease,daun
+Batang hitam oleh busuk batang.,busuk batang,Disease,batang
+Helai daun keriting oleh wereng hijau.,wereng,Pest,daun
+Daun menggulung oleh pelipat daun.,,,daun
+Pelepah buat keropos oleh jamur.,jamur,Disease,pelepah
+Daun kering diamelior blas.,blas,Disease,daun
+Batang melemah oleh penggerek.,penggerek,Pest,batang
+Daun berubah kuning oleh wereng.,wereng,Pest,daun
+Malai kurus oleh virus kerdil.,,,malai
+Akar lapuk oleh busuk akar.,busuk akar,Disease,akar
+Helai daun menghitam oleh cercospora.,cercospora,Disease,daun
+Daun terbakar oleh blas.,blas,Disease,daun
+Batang hancur karena tikus.,tikus,Pest,batang
+Daun ada lubang besar oleh penggerek batang.,penggerek,Pest,daun
+Akar kering oleh busuk akar.,busuk akar,Disease,akar
+Daun berjamur akibat jamur.,jamur,Disease,daun
+Batang benyek oleh busuk batang.,busuk batang,Disease,batang
+Daun terlihat lesi oval oleh blas.,blas,Disease,daun
+Malai merunduk karena walang sangit.,walang sangit,Pest,malai
+Daun tidak melekuk tapi keriting oleh virus.,,,daun
+Batang terkelupas karena tikus.,tikus,Pest,batang
+Daun encok oleh wereng.,wereng,Pest,daun
+Akar gampang lepas oleh busuk akar.,busuk akar,Disease,akar
+Helai daun gugur oleh virus.,,,daun
+Daun semakin hitam oleh hawar daun.,hawar daun,Disease,daun
+Batang rusak oleh penggerek batang.,penggerek,Pest,batang
+Daun luka oleh ulat grayak.,ulat,Pest,daun
+Pelepah ditumbuhi jamur oleh cercospora.,cercospora,Disease,pelepah
+Malai melengkung oleh walang sangit.,walang sangit,Pest,malai
+Daun berwarna pucat oleh virus tungro.,virus tungro,Disease,daun
+Batang keropos akibat penggerek batang.,penggerek,Pest,batang
+Daun mengering di pinggir oleh hawar daun.,hawar daun,Disease,daun
+Malai hampa oleh virus kerdil.,,,malai
+Helai daun bercendawan oleh cercospora.,cercospora,Disease,daun
+Daun menguning karena wereng hijau.,wereng,Pest,daun
+Batang berlubang akibat ulang grayak.,,,batang
+Akar busuk oleh busuk akar.,busuk akar,Disease,akar
+Daun sobek karena kutu putih.,kutu putih,Pest,daun
+Batang hitam karena jamur.,jamur,Disease,batang
+Daun tampak bercak coklat akibat blas.,blas,Disease,daun
+Akar terkelupas oleh keong mas.,keong mas,Pest,akar
+Daun melepuh karena hawar daun.,hawar daun,Disease,daun
+Batang patah oleh tikus.,tikus,Pest,batang
+Helai daun terlipat oleh pelipat daun.,,,daun
+Daun bercak air oleh Xanthomonas oryzae.,,,daun
+Batang mengering oleh penggerek batang.,penggerek,Pest,batang
+Daun berkerut oleh virus kerdil.,,,daun
+Malai kosong oleh walang sangit.,walang sangit,Pest,malai
+Akar menghitam akibat jamur.,jamur,Disease,akar
+Daun layu oleh wereng.,wereng,Pest,daun
+Batang bergaris gelap karena penggerek.,penggerek,Pest,batang
+Daun bercorak mozaik oleh virus tungro.,virus tungro,Disease,daun
+Pelepah bercendawan oleh cercospora.,cercospora,Disease,pelepah
+Daun pucat dan kering karena blas.,blas,Disease,daun
+Batang hancur oleh tikus sawah.,tikus,Pest,batang
+Helai daun patah karena penggerek.,penggerek,Pest,daun
+Daun berlubang oleh belalang.,belalang,Pest,daun
+Batang pucat oleh virus.,,,batang
+Daun rusak parah karena ulat grayak.,ulat,Pest,daun
+Akar membusuk oleh busuk akar.,busuk akar,Disease,akar
+Batang ada lukanya oleh penggerek.,penggerek,Pest,batang
+Daun keriting oleh virus kerdil.,,,daun
+Pelepah menghitam oleh jamur.,jamur,Disease,pelepah
+Daun muncul titik putih oleh kutu putih.,kutu putih,Pest,daun
+Batang bolong oleh penggerek batang.,penggerek,Pest,batang
+Daun merah oleh virus.,,,daun
+Malai tidak mengisi karena walang sangit.,walang sangit,Pest,malai
+Daun gosong oleh blas.,blas,Disease,daun
+Akar melemah akibat tikus.,tikus,Pest,akar
+Batang retak oleh penggerek.,penggerek,Pest,batang
+Daun bengkok oleh wereng hijau.,wereng,Pest,daun
+Helai daun gelap oleh jamur.,jamur,Disease,daun
+Daun bertepi kuning karena virus tungro.,virus tungro,Disease,daun
+Batang kurus oleh virus kerdil.,,,batang
+Daun berlendir oleh hawar daun.,hawar daun,Disease,daun
+Malai kosong oleh serangan walang sangit.,walang sangit,Pest,malai
+Akar rapuh oleh busuk akar.,busuk akar,Disease,akar
+Daun menguning oleh wereng batang coklat.,wereng,Pest,daun
+Batang kering oleh penggerek batang.,penggerek,Pest,batang
+Daun layu karena virus tungro.,virus tungro,Disease,daun
+Helai daun keriting oleh ulat penggulung daun.,ulat,Pest,daun
+Malai kosong oleh walang sangit.,walang sangit,Pest,malai
+Akar busuk oleh busuk akar.,busuk akar,Disease,akar
+Daun bercak coklat oleh blas.,blas,Disease,daun
+Batang patah karena tikus.,tikus,Pest,batang
+Daun bintik putih oleh kutu putih.,kutu putih,Pest,daun
+Pelepah bercendawan oleh cercospora.,cercospora,Disease,pelepah
+Daun berguguran oleh hawar daun.,hawar daun,Disease,daun
+Batang keropos oleh penggerek batang.,penggerek,Pest,batang
+Daun gosong akibat blas.,blas,Disease,daun
+Akar rapuh oleh busuk akar.,busuk akar,Disease,akar
+Daun pucat karena virus tungro.,virus tungro,Disease,daun
+Batang retak oleh penggerek batang.,penggerek,Pest,batang
+Daun robek oleh ulat grayak.,ulat,Pest,daun
+Helai daun busuk oleh busuk pelepah.,busuk pelepah,Disease,daun
+Daun bercak air oleh Xanthomonas oryzae.,,,daun
+Batang hitam oleh busuk batang.,busuk batang,Disease,batang
+Malai hampa oleh virus kerdil.,,,malai
+Daun menggulung oleh ulat penggulung daun.,ulat,Pest,daun
+Akar lemah oleh tikus.,tikus,Pest,akar
+Daun oval oleh cercospora.,cercospora,Disease,daun
+Batang tekuk oleh wereng batang coklat.,wereng,Pest,batang
+Daun bercak hitam oleh jamur.,jamur,Disease,daun
+Akar lubang oleh tikus sawah.,tikus,Pest,akar
+Daun kering sebagian karena blas.,blas,Disease,daun
+Batang rapuh oleh penggerek batang.,penggerek,Pest,batang
+Daun hitam oleh cercospora.,cercospora,Disease,daun
+Helai daun terbakar oleh hawar daun.,hawar daun,Disease,daun
+Akar busuk oleh busuk akar.,busuk akar,Disease,akar
+Daun berlendir oleh hawar daun.,hawar daun,Disease,daun
+Batang patah oleh penggerek batang.,penggerek,Pest,batang
+Daun bercak mata oleh blas.,blas,Disease,daun
+Malai kosong oleh walang sangit.,walang sangit,Pest,malai
+Akar busuk oleh jamur.,jamur,Disease,akar
+Daun keriting oleh virus kerdil rumput.,virus kerdil rumput,Disease,daun
+Batang kering oleh busuk batang.,busuk batang,Disease,batang
+Helai daun pucat oleh wereng batang coklat.,wereng,Pest,daun
+Daun retak oleh blas.,blas,Disease,daun
+Akar tekuk oleh busuk akar.,busuk akar,Disease,akar
+Pelepah bercak ungu oleh cercospora.,cercospora,Disease,pelepah
+Daun gosong oleh blas.,blas,Disease,daun
+Batang rapuh oleh tikus.,tikus,Pest,batang
+Daun bintik coklat oleh cercospora.,cercospora,Disease,daun
+Helai daun menguning karena hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Malai hampa oleh virus kerdil.,,,malai
+Batang tekuk oleh wereng batang coklat.,wereng,Pest,batang
+Daun layu oleh virus kerdil hampa.,virus kerdil hampa,Disease,daun
+Akar hitam oleh busuk akar.,busuk akar,Disease,akar
+Daun berlubang oleh belalang.,belalang,Pest,daun
+Batang retak karena penggerek batang.,penggerek,Pest,batang
+Helai daun keropos oleh jamur.,jamur,Disease,daun
+Daun bercak putih oleh cercospora.,cercospora,Disease,daun
+Akar rapuh oleh keong mas.,keong mas,Pest,akar
+Batang hitam oleh busuk batang.,busuk batang,Disease,batang
+Daun kering oleh blas.,blas,Disease,daun
+Helai daun robek oleh ulat grayak.,ulat,Pest,daun
+Daun bercendawan oleh cercospora.,cercospora,Disease,daun
+Batang patah oleh tikus sawah.,tikus,Pest,batang
+Daun kosong oleh walang sangit.,walang sangit,Pest,daun
+Akar busuk oleh jamur.,jamur,Disease,akar
+Daun tekuk oleh wereng batang coklat.,wereng,Pest,daun
+Batang retak oleh penggerek batang.,penggerek,Pest,batang
+Daun hitam oleh cercospora.,cercospora,Disease,daun
+Malai kosong oleh virus kerdil.,,,malai
+Helai daun bercendawan oleh jamur.,jamur,Disease,daun
+Daun bercak hitam oleh cercospora.,cercospora,Disease,daun
+Akar lusuh oleh busuk akar.,busuk akar,Disease,akar
+Batang busuk oleh busuk batang.,busuk batang,Disease,batang
+Daun keropos oleh ulat penggulung daun.,ulat,Pest,daun
+Helai daun menguning oleh wereng batang coklat.,wereng,Pest,daun
+Daun layu oleh virus tungro.,virus tungro,Disease,daun
+Batang rapuh oleh penggerek batang.,penggerek,Pest,batang
+Pelepah bercendawan oleh cercospora.,cercospora,Disease,pelepah
+Daun gosong oleh blas.,blas,Disease,daun
+Akar busuk oleh busuk akar.,busuk akar,Disease,akar
+Daun bercak coklat oleh hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Pelepah menguning oleh keong mas.,keong mas,Pest,pelepah
+Pelepah hitam oleh hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Pelepah hitam oleh blas.,blas,Disease,pelepah
+Pelepah layu oleh virus tungro.,virus tungro,Disease,pelepah
+Akar layu oleh virus tungro.,virus tungro,Disease,akar
+Akar kering oleh ulat grayak.,ulat,Pest,akar
+Daun bercak oleh wereng batang coklat.,wereng,Pest,daun
+Akar layu oleh busuk akar.,busuk akar,Disease,akar
+Akar kering oleh keong mas.,keong mas,Pest,akar
+Batang layu oleh virus tungro.,virus tungro,Disease,batang
+Akar kering oleh virus tungro.,virus tungro,Disease,akar
+Pelepah menguning oleh cercospora.,cercospora,Disease,pelepah
+Pelepah layu oleh wereng batang coklat.,wereng,Pest,pelepah
+Batang hitam oleh hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Pelepah menguning oleh penggerek batang.,penggerek,Pest,pelepah
+Daun kering oleh ulat grayak.,ulat,Pest,daun
+Akar bercak oleh busuk akar.,busuk akar,Disease,akar
+Batang hitam oleh blas.,blas,Disease,batang
+Batang bercak oleh busuk akar.,busuk akar,Disease,batang
+Batang layu oleh wereng batang coklat.,wereng,Pest,batang
+Pelepah layu oleh walang sangit.,walang sangit,Pest,pelepah
+Pelepah hitam oleh ulat grayak.,ulat,Pest,pelepah
+Daun hitam oleh ulat grayak.,ulat,Pest,daun
+Akar kering oleh blas.,blas,Disease,akar
+Daun bercak oleh blas.,blas,Disease,daun
+Daun menguning oleh wereng batang coklat.,wereng,Pest,daun
+Akar layu oleh ulat grayak.,ulat,Pest,akar
+Daun hitam oleh ulat grayak.,ulat,Pest,daun
+Batang bercak oleh ulat grayak.,ulat,Pest,batang
+Akar hitam oleh virus tungro.,virus tungro,Disease,akar
+Akar layu oleh blas.,blas,Disease,akar
+Akar layu oleh hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Daun layu oleh busuk akar.,busuk akar,Disease,daun
+Daun bercak oleh wereng batang coklat.,wereng,Pest,daun
+Pelepah kering oleh keong mas.,keong mas,Pest,pelepah
+Akar menguning oleh hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Batang menguning oleh penggerek batang.,penggerek,Pest,batang
+Batang bercak oleh blas.,blas,Disease,batang
+Akar menguning oleh penggerek batang.,penggerek,Pest,batang
+Daun menguning oleh hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Pelepah hitam oleh blas.,blas,Disease,pelepah
+Daun kering oleh walang sangit.,walang sangit,Pest,daun
+Daun hitam oleh busuk akar.,busuk akar,Disease,daun
+Daun bercak oleh keong mas.,keong mas,Pest,daun
+Akar menguning oleh ulat grayak.,ulat,Pest,akar
+Daun hitam oleh wereng batang coklat.,wereng,Pest,daun
+Akar layu oleh penggerek batang.,penggerek,Pest,batang
+Batang hitam oleh penggerek batang.,penggerek,Pest,batang
+Akar kering oleh wereng batang coklat.,wereng,Pest,batang
+Batang kering oleh penggerek batang.,penggerek,Pest,batang
+Akar bercak oleh blas.,blas,Disease,akar
+Batang kering oleh busuk akar.,busuk akar,Disease,batang
+Batang bercak oleh keong mas.,keong mas,Pest,batang
+Batang menguning oleh penggerek batang.,penggerek,Pest,batang
+Daun kering oleh ulat grayak.,ulat,Pest,daun
+Akar menguning oleh keong mas.,keong mas,Pest,akar
+Akar layu oleh keong mas.,keong mas,Pest,akar
+Batang bercak oleh wereng batang coklat.,wereng,Pest,batang
+Pelepah hitam oleh walang sangit.,walang sangit,Pest,pelepah
+Pelepah hitam oleh hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Daun layu oleh blas.,blas,Disease,daun
+Daun hitam oleh walang sangit.,walang sangit,Pest,daun
+Daun bercak oleh virus tungro.,virus tungro,Disease,daun
+Akar bercak oleh blas.,blas,Disease,akar
+Akar bercak oleh busuk akar.,busuk akar,Disease,akar
+Pelepah kering oleh virus tungro.,virus tungro,Disease,pelepah
+Akar bercak oleh cercospora.,cercospora,Disease,akar
+Daun menguning oleh blas.,blas,Disease,daun
+Batang kering oleh ulat grayak.,ulat,Pest,batang
+Akar bercak oleh penggerek batang.,penggerek,Pest,batang
+Akar layu oleh penggerek batang.,penggerek,Pest,batang
+Batang hitam oleh walang sangit.,walang sangit,Pest,batang
+Pelepah kering oleh cercospora.,cercospora,Disease,pelepah
+Daun layu oleh hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Pelepah bercak oleh cercospora.,cercospora,Disease,pelepah
+Akar menguning oleh virus tungro.,virus tungro,Disease,akar
+Pelepah hitam oleh hawar daun bakteri.,hawar daun bakteri,Disease,daun
+Daun kering oleh penggerek batang.,penggerek,Pest,daun
+Akar bercak oleh cercospora.,cercospora,Disease,akar
+Batang menguning oleh penggerek batang.,penggerek,Pest,batang
+Daun hitam oleh busuk akar.,busuk akar,Disease,daun
+Akar hitam oleh blas.,blas,Disease,akar
+Daun kering oleh virus tungro.,virus tungro,Disease,daun
+Batang kering oleh busuk akar.,busuk akar,Disease,batang
+Daun bercak oleh virus tungro.,virus tungro,Disease,daun
+Akar layu oleh busuk akar.,busuk akar,Disease,akar
+Akar hitam oleh penggerek batang.,penggerek,Pest,batang
+Batang kering oleh penggerek batang.,penggerek,Pest,batang
+Akar kering oleh cercospora.,cercospora,Disease,akar
+Pelepah bercak oleh cercospora.,cercospora,Disease,pelepah
+Daun menguning oleh blas.,blas,Disease,daun
+Batang bercak oleh keong mas.,keong mas,Pest,batang
+Daun hitam oleh cercospora.,cercospora,Disease,daun
+Akar bercak oleh walang sangit.,walang sangit,Pest,akar
+Batang bercak oleh virus tungro.,virus tungro,Disease,batang
+Batang hitam oleh ulat grayak.,ulat,Pest,batang
+Daun layu oleh cercospora.,cercospora,Disease,daun

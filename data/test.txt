@@ -1,306 +1,381 @@
-Gejala	O
-mati	B-GEJALA
-anakan	I-GEJALA
-gejala	O
-secara	O
-tiba	O
-tiba	O
-adalah	O
-indikasi	O
-serangan	O
-parah	O
-wereng	B-HAMA
-hijau	I-HAMA
-hama	O
-.	O
-
-Walang	B-HAMA
-sangit	I-HAMA
-hama	O
-menyuntikkan	O
-racun	O
-yang	O
-membuat	O
-bulir	B-ORGAN
-padi	I-ORGAN
-organ	O
-menjadi	O
-hampa	B-GEJALA
-gejala	O
-.	O
-
-Lesi	B-GEJALA
-gejala	O
-berbentuk	O
-mata	O
-pada	O
-daun	B-ORGAN
-adalah	O
-ciri	O
-khas	O
-penyakit	B-PENYAKIT
-blas	I-PENYAKIT
-penyakit	O
-.	O
-
-Tikus	B-HAMA
-membuat	O
-lubang	B-GEJALA
-besar	O
-di	O
-pematang	B-LOKASI
-sawah	I-LOKASI
-dan	O
-memotong	O
-batang	B-ORGAN
-padi	O
-.	O
-
-Bercak	B-GEJALA
-bulat	I-GEJALA
-gejala	O
-dengan	O
-tepi	O
-berwarna	O
-coklat	O
-dan	O
-pusat	O
-abu	O
-abu	O
-adalah	O
-gejala	O
-penyakit	B-PENYAKIT
-blas	I-PENYAKIT
-penyakit	O
-.	O
-
-Tikus	B-HAMA
-hama	O
-merusak	O
-pematang	B-LOKASI
-sawah	I-LOKASI
-lokasi	O
-dan	O
-memotong	O
-batang	B-ORGAN
-organ	O
-padi	O
-,	O
-menyebabkan	O
-rebah	B-GEJALA
-gejala	O
-.	O
-
-Penyakit	B-PENYAKIT
-kerdil	I-PENYAKIT
-hampa	I-PENYAKIT
-penyakit	O
-membuat	O
-bulir	B-ORGAN
-padi	I-ORGAN
-organ	O
-tidak	O
-terisi	O
-penuh	O
-gejala	O
-.	O
-
-Kutu	B-HAMA
-perisai	I-HAMA
-hama	O
-menyebabkan	O
-penguningan	B-GEJALA
-gejala	O
-dan	O
-pengeringan	O
-gejala	O
-pada	O
-daun	B-ORGAN
-organ	O
-.	O
-
-Ditemukan	O
-miselium	B-GEJALA
-putih	I-GEJALA
-gejala	O
-pada	O
-permukaan	B-LOKASI
-air	I-LOKASI
-di	O
-sekitar	O
-pangkal	B-ORGAN
-batang	I-ORGAN
-organ	O
-yang	O
-terinfeksi	O
-.	O
-
-Belalang	B-HAMA
-merusak	O
-daun	B-ORGAN
-dengan	O
-meninggalkan	O
-bekas	B-GEJALA
-gigitan	I-GEJALA
-di	O
-tepiannya	O
-.	O
-
-Wereng	B-HAMA
-coklat	I-HAMA
-menyebabkan	O
-daun	B-ORGAN
+Malai	B-BAGIAN_TANAMAN
 mulai	O
-menguning	B-GEJALA
-dari	O
-bagian	O
-bawah	O
-tanaman	O
+bercendawan	B-GEJALA
+setelah	O
+pelepah	B-BAGIAN_TANAMAN
+diserang	O
+jamur	B-PENYAKIT
 .	O
 
-Virus	B-PENYAKIT
-tungro	I-PENYAKIT
-penyakit	O
-menyebabkan	O
-daun	B-ORGAN
-organ	O
-padi	O
-menjadi	O
-kerdil	B-GEJALA
-gejala	O
-dan	O
-kuning	B-GEJALA
-gejala	O
+Malai	B-BAGIAN_TANAMAN
+kosong	B-GEJALA
+oleh	O
+virus	B-PENYAKIT
+kerdil	I-PENYAKIT
 .	O
 
-Bercak	B-GEJALA
-coklat	I-GEJALA
-gejala	O
-dapat	O
-meluas	O
-ke	O
-seluruh	O
-daun	B-ORGAN
-organ	O
-pada	O
-kasus	O
-infeksi	O
-yang	O
-parah	O
-.	O
-
-Tikus	B-HAMA
-hama	O
-merusak	O
-area	B-LOKASI
-persawahan	I-LOKASI
-,	O
-menyebabkan	O
-kehilangan	O
-anakan	B-ORGAN
-gejala	O
-yang	O
-signifikan	O
-.	O
-
-Penyakit	B-PENYAKIT
-busuk	I-PENYAKIT
-batang	I-PENYAKIT
-membuat	O
-batang	B-ORGAN
-padi	O
-menjadi	O
-rapuh	B-GEJALA
-dan	O
-mudah	O
+Akar	B-BAGIAN_TANAMAN
 patah	B-GEJALA
-.	O
-
-Terdapat	O
-bintik	B-GEJALA
-coklat	I-GEJALA
-kecil	O
-pada	O
-daun	B-ORGAN
-yang	O
-terinfeksi	O
-penyakit	B-PENYAKIT
-bercak	I-PENYAKIT
-coklat	I-PENYAKIT
-.	O
-
-Kerusakan	O
 oleh	O
 keong	B-HAMA
 mas	I-HAMA
-hama	O
-terlihat	O
-dari	O
-anakan	B-ORGAN
-terpotong	O
-gejala	O
-di	O
-dekat	O
-permukaan	B-LOKASI
-air	I-LOKASI
 .	O
 
-Daun	B-ORGAN
-padi	O
-yang	O
-terserang	O
-kutu	B-HAMA
-perisai	I-HAMA
-hama	O
-menunjukkan	O
-pengeringan	B-GEJALA
-dini	I-GEJALA
-gejala	O
-dan	O
-sulit	O
-pulih	O
-.	O
-
-Penyakit	B-PENYAKIT
-busuk	I-PENYAKIT
-biji	I-PENYAKIT
-penyakit	O
-membuat	O
-gabah	B-ORGAN
-organ	O
-padi	O
-menjadi	O
-hitam	B-GEJALA
-gejala	O
-dan	O
-tidak	O
-bisa	O
-ditanam	O
-.	O
-
-Tikus	B-HAMA
-sawah	I-HAMA
-memakan	O
-bulir	B-ORGAN
-padi	I-ORGAN
-yang	O
-matang	O
-di	O
-malai	B-ORGAN
-.	O
-
-Penyakit	B-PENYAKIT
-hawar	I-PENYAKIT
-daun	I-PENYAKIT
-bakteri	I-PENYAKIT
-penyakit	O
-menyebabkan	O
-daun	B-ORGAN
-organ	O
+Batang	B-BAGIAN_TANAMAN
 layu	B-GEJALA
-gejala	O
-dari	O
-ujung	O
-ke	O
-pangkal	O
+oleh	O
+wereng	B-HAMA
+coklat	I-HAMA
 .	O
+
+Daun	B-BAGIAN_TANAMAN
+hitam	I-GEJALA
+oleh	O
+walang	B-HAMA
+sangit	I-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+ada	O
+garis	B-GEJALA
+gelap	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+hitam	I-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+akar	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+patah	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Helai	B-BAGIAN_TANAMAN
+daun	I-BAGIAN_TANAMAN
+berkerut	B-GEJALA
+akibat	O
+serangan	O
+kutu	B-HAMA
+putih	I-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+layu	B-GEJALA
+oleh	O
+virus	B-PENYAKIT
+tungro	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+retak	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Bercak	B-GEJALA
+coklat	B-GEJALA
+pada	O
+daun	B-BAGIAN_TANAMAN
+menjadi	O
+meluas	B-GEJALA
+karena	O
+penyakit	O
+garis	B-PENYAKIT
+coklat	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+hitam	I-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+akar	I-PENYAKIT
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+oleh	O
+cercospora	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+berkarat	B-GEJALA
+oleh	O
+karat	B-PENYAKIT
+daun	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+hancur	B-GEJALA
+oleh	O
+tikus	B-HAMA
+sawah	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+menjadi	B-GEJALA
+bergelombang	I-GEJALA
+karena	O
+wereng	B-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+bergaris	B-GEJALA
+putih	B-GEJALA
+itu	O
+ciri	O
+cercospora	B-PENYAKIT
+.	O
+
+Malai	B-BAGIAN_TANAMAN
+berwarna	O
+coklat	B-GEJALA
+oleh	O
+walang	B-HAMA
+sangit	I-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+kering	B-GEJALA
+oleh	O
+busuk	B-PENYAKIT
+akar	I-PENYAKIT
+.	O
+
+Malai	B-BAGIAN_TANAMAN
+kosong	B-GEJALA
+oleh	O
+walang	B-HAMA
+sangit	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+bintik	B-GEJALA
+putih	I-GEJALA
+oleh	O
+kutu	B-HAMA
+putih	I-HAMA
+.	O
+
+Pelepah	B-BAGIAN_TANAMAN
+bercak	B-GEJALA
+ungu	I-GEJALA
+oleh	O
+cercospora	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+ngelipat	B-GEJALA
+sendiri	O
+diserang	O
+pelipat	B-HAMA
+daun	I-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+terkelupas	B-GEJALA
+oleh	O
+keong	B-HAMA
+mas	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+kemudian	O
+runtuh	B-GEJALA
+karena	O
+tikus	B-HAMA
+sawah	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+keriting	B-GEJALA
+oleh	O
+virus	B-PENYAKIT
+kerdil	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+terbakar	B-GEJALA
+oleh	O
+blas	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+diserang	O
+kutu	B-HAMA
+putih	I-HAMA
+jadi	O
+bolong	B-GEJALA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+udah	O
+kosong	B-GEJALA
+di	O
+dalam	O
+karena	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+berwarna	O
+coklat	B-GEJALA
+ke	O
+kehitaman	B-GEJALA
+karena	O
+hawar	B-PENYAKIT
+daun	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+berbercak	B-GEJALA
+air	B-GEJALA
+akibat	O
+blas	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+menghitam	B-GEJALA
+di	O
+ujung	B-BAGIAN_TANAMAN
+karena	O
+hawar	B-PENYAKIT
+daun	I-PENYAKIT
+.	O
+
+Helai	B-BAGIAN_TANAMAN
+daun	I-BAGIAN_TANAMAN
+mengepulkan	O
+jamur	B-PENYAKIT
+hitam	B-GEJALA
+.	O
+
+Helai	B-BAGIAN_TANAMAN
+daun	I-BAGIAN_TANAMAN
+patah	B-GEJALA
+karena	O
+penggerek	B-HAMA
+.	O
+
+Malai	B-BAGIAN_TANAMAN
+keluar	B-GEJALA
+tidak	O
+sempurna	O
+karena	O
+blas	B-PENYAKIT
+.	O
+
+Malai	B-BAGIAN_TANAMAN
+hampa	B-GEJALA
+oleh	O
+virus	B-PENYAKIT
+kerdil	I-PENYAKIT
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+menguning	B-GEJALA
+oleh	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+bercak	B-GEJALA
+oleh	O
+walang	B-HAMA
+sangit	I-HAMA
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+lemah	B-GEJALA
+oleh	O
+tikus	B-HAMA
+.	O
+
+Batang	B-BAGIAN_TANAMAN
+menghitam	B-GEJALA
+setelah	O
+serangan	O
+penggerek	B-HAMA
+batang	I-HAMA
+.	O
+
+Helai	B-BAGIAN_TANAMAN
+daun	I-BAGIAN_TANAMAN
+keropos	B-GEJALA
+oleh	O
+jamur	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+menghitam	B-GEJALA
+di	O
+tepian	B-BAGIAN_TANAMAN
+akibat	O
+blas	B-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+muncul	B-GEJALA
+bercak	B-GEJALA
+coklat	B-GEJALA
+oleh	O
+blas	B-PENYAKIT
+lagi	O
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+menghitam	B-GEJALA
+oleh	O
+hawar	B-PENYAKIT
+daun	I-PENYAKIT
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+ada	O
+bercak	B-GEJALA
+abu-abu	B-GEJALA
+karena	O
+blas	B-PENYAKIT
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+rapuh	B-GEJALA
+oleh	O
+keong	B-HAMA
+mas	I-HAMA
+.	O
+
+Daun	B-BAGIAN_TANAMAN
+mengalami	O
+nekrosis	B-GEJALA
+akibat	O
+tungro	B-PENYAKIT
+.	O
+
+Akar	B-BAGIAN_TANAMAN
+terpotong	B-GEJALA
+oleh	O
+keong	B-HAMA
+mas	I-HAMA
+.	O
+
+Helai	B-BAGIAN_TANAMAN
+daun	I-BAGIAN_TANAMAN
+keriting	B-GEJALA
+oleh	O
+ulat	B-HAMA
+penggulung	I-HAMA
+daun	I-HAMA
+.	O
+
