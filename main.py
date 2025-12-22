@@ -104,8 +104,6 @@ class NERDataset(Dataset):
 
 
 class BiLSTM_CRF(nn.Module):
-    """BiLSTM-CRF model for sequence labeling."""
-    
     def __init__(self, vocab_size: int, tagset_size: int, 
                  emb_dim: int = 128, hidden_dim: int = 128):
         super().__init__()
@@ -121,7 +119,6 @@ class BiLSTM_CRF(nn.Module):
         self.crf = CRF(tagset_size, batch_first=True)
     
     def _get_features(self, words: torch.Tensor) -> torch.Tensor:
-        """Extract features from input words."""
         embeds = self.embedding(words)
         lstm_out, _ = self.lstm(embeds)
         features = self.hidden2tag(lstm_out)
@@ -129,13 +126,11 @@ class BiLSTM_CRF(nn.Module):
     
     def forward(self, words: torch.Tensor, tags: torch.Tensor, 
                 mask: torch.Tensor) -> torch.Tensor:
-        """Forward pass returning negative log-likelihood loss."""
         emissions = self._get_features(words)
         loss = -self.crf(emissions, tags, mask=mask, reduction="mean")
         return loss
     
     def predict(self, words: torch.Tensor, mask: torch.Tensor) -> List[List[int]]:
-        """Predict tag sequences using Viterbi decoding."""
         emissions = self._get_features(words)
         return self.crf.decode(emissions, mask=mask)
 

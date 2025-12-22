@@ -1,0 +1,42 @@
+2025-12-22 17:59:11 | INFO | === EXPERIMENT STARTED ===
+2025-12-22 17:59:11 | INFO | Device: cpu
+2025-12-22 17:59:11 | INFO | Train sentences: 350
+2025-12-22 17:59:11 | INFO | Valid sentences: 100
+2025-12-22 17:59:11 | INFO | Vocabulary size: 265
+2025-12-22 17:59:11 | INFO | Tag size: 10
+2025-12-22 17:59:13 | INFO | Epoch 1/20 | Train Loss: 12.4585 | Val F1: 0.2648
+2025-12-22 17:59:13 | INFO | >> Best model updated
+2025-12-22 17:59:14 | INFO | Epoch 2/20 | Train Loss: 7.4488 | Val F1: 0.6183
+2025-12-22 17:59:14 | INFO | >> Best model updated
+2025-12-22 17:59:15 | INFO | Epoch 3/20 | Train Loss: 4.2874 | Val F1: 0.7220
+2025-12-22 17:59:15 | INFO | >> Best model updated
+2025-12-22 17:59:16 | INFO | Epoch 4/20 | Train Loss: 2.5640 | Val F1: 0.7558
+2025-12-22 17:59:16 | INFO | >> Best model updated
+2025-12-22 17:59:17 | INFO | Epoch 5/20 | Train Loss: 1.7675 | Val F1: 0.7721
+2025-12-22 17:59:17 | INFO | >> Best model updated
+2025-12-22 17:59:17 | INFO | Epoch 6/20 | Train Loss: 1.3335 | Val F1: 0.7734
+2025-12-22 17:59:17 | INFO | >> Best model updated
+2025-12-22 17:59:18 | INFO | Epoch 7/20 | Train Loss: 1.0337 | Val F1: 0.8850
+2025-12-22 17:59:18 | INFO | >> Best model updated
+2025-12-22 17:59:19 | INFO | Epoch 8/20 | Train Loss: 0.8248 | Val F1: 0.8851
+2025-12-22 17:59:19 | INFO | >> Best model updated
+2025-12-22 17:59:20 | INFO | Epoch 9/20 | Train Loss: 0.6592 | Val F1: 0.8881
+2025-12-22 17:59:20 | INFO | >> Best model updated
+2025-12-22 17:59:21 | INFO | Epoch 10/20 | Train Loss: 0.5382 | Val F1: 0.8852
+2025-12-22 17:59:22 | INFO | Epoch 11/20 | Train Loss: 0.4311 | Val F1: 0.8860
+2025-12-22 17:59:23 | INFO | Epoch 12/20 | Train Loss: 0.3571 | Val F1: 0.8944
+2025-12-22 17:59:23 | INFO | >> Best model updated
+2025-12-22 17:59:24 | INFO | Epoch 13/20 | Train Loss: 0.2904 | Val F1: 0.8944
+2025-12-22 17:59:25 | INFO | Epoch 14/20 | Train Loss: 0.2424 | Val F1: 0.8960
+2025-12-22 17:59:25 | INFO | >> Best model updated
+2025-12-22 17:59:26 | INFO | Epoch 15/20 | Train Loss: 0.2029 | Val F1: 0.8961
+2025-12-22 17:59:26 | INFO | >> Best model updated
+2025-12-22 17:59:27 | INFO | Epoch 16/20 | Train Loss: 0.1752 | Val F1: 0.8974
+2025-12-22 17:59:27 | INFO | >> Best model updated
+2025-12-22 17:59:28 | INFO | Epoch 17/20 | Train Loss: 0.1480 | Val F1: 0.8974
+2025-12-22 17:59:29 | INFO | Epoch 18/20 | Train Loss: 0.1297 | Val F1: 0.8968
+2025-12-22 17:59:30 | INFO | Epoch 19/20 | Train Loss: 0.1134 | Val F1: 0.9037
+2025-12-22 17:59:30 | INFO | >> Best model updated
+2025-12-22 17:59:30 | INFO | Epoch 20/20 | Train Loss: 0.0970 | Val F1: 0.8952
+2025-12-22 17:59:30 | INFO | === TRAINING FINISHED ===
+2025-12-22 17:59:30 | INFO | Best Validation F1: 0.9037
