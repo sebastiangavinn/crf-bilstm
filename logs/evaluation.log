@@ -1,0 +1,42 @@
+2025-12-22 18:00:05 | INFO | === EVALUATION STARTED ===
+2025-12-22 18:00:05 | INFO | Test sentences: 50
+2025-12-22 18:00:05 | INFO | === FINAL TEST RESULT ===
+2025-12-22 18:00:05 | INFO | 
+                  precision    recall  f1-score   support
+
+B-BAGIAN_TANAMAN       1.00      0.96      0.98        53
+        B-GEJALA       0.87      0.95      0.91        57
+          B-HAMA       0.96      1.00      0.98        25
+      B-PENYAKIT       0.96      0.96      0.96        25
+I-BAGIAN_TANAMAN       1.00      1.00      1.00         5
+        I-GEJALA       0.67      0.33      0.44         6
+          I-HAMA       0.96      1.00      0.98        23
+      I-PENYAKIT       0.92      0.92      0.92        12
+               O       0.98      0.97      0.98       125
+
+        accuracy                           0.95       331
+       macro avg       0.92      0.90      0.90       331
+    weighted avg       0.95      0.95      0.95       331
+
+2025-12-22 18:00:05 | INFO | === EVALUATION FINISHED ===
+2025-12-22 20:09:27 | INFO | === EVALUATION STARTED ===
+2025-12-22 20:09:27 | INFO | Test sentences: 50
+2025-12-22 20:09:27 | INFO | === FINAL TEST RESULT ===
+2025-12-22 20:09:27 | INFO | 
+                  precision    recall  f1-score   support
+
+B-BAGIAN_TANAMAN       1.00      0.98      0.99        53
+        B-GEJALA       0.82      0.93      0.87        57
+          B-HAMA       1.00      1.00      1.00        25
+      B-PENYAKIT       0.93      1.00      0.96        25
+I-BAGIAN_TANAMAN       1.00      1.00      1.00         5
+        I-GEJALA       0.50      0.33      0.40         6
+          I-HAMA       0.96      1.00      0.98        23
+      I-PENYAKIT       1.00      0.92      0.96        12
+               O       0.98      0.93      0.95       125
+
+        accuracy                           0.94       331
+       macro avg       0.91      0.90      0.90       331
+    weighted avg       0.94      0.94      0.94       331
+
+2025-12-22 20:09:27 | INFO | === EVALUATION FINISHED ===
