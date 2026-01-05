@@ -9,6 +9,7 @@ from src.data.dataset import NERDataset
 from src.model.bilstm_crf import BiLSTM_CRF
 from src.train.trainer import Trainer
 from src.utils.logger import setup_logger
+from src.utils.methodology_logger import log_methodology_examples
 from src.utils.seed import set_seed
 
 # ======================
@@ -43,6 +44,10 @@ logger.info(f"Valid sentences: {len(valid_sent)}")
 # ======================
 vocab = Vocabulary()
 vocab.build(train_sent, train_tags)
+log_methodology_examples(
+    logger=logger,
+    vocab=vocab
+)
 
 logger.info(f"Vocabulary size: {len(vocab.word2idx)}")
 logger.info(f"Tag size: {len(vocab.tag2idx)}")

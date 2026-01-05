@@ -1,4 +1,5 @@
 from typing import List, Tuple
+from src.utils.text_cleaner import clean_token
 
 class DataReader:
     @staticmethod
@@ -17,7 +18,8 @@ class DataReader:
                         sent, tag_seq = [], []
                 else:
                     word, tag = line.split()[0], line.split()[-1]
-                    sent.append(word.lower())
+                    word = clean_token(word)   # 👈 PEMBERSIHAN DI SINI
+                    sent.append(word)
                     tag_seq.append(tag)
 
         return sentences, tags
