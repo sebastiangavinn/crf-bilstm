@@ -16,6 +16,9 @@ class Trainer:
 
             loss = self.model(words, tags, mask)
 
+            if self.class_weights is not None:
+                loss = loss * self.class_weights.mean()
+
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
