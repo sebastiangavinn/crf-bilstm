@@ -7,6 +7,10 @@ import re
 from typing import List, Tuple, Dict, Optional
 from src.utils.mask import create_mask
 
+NON_MEDICAL_TERMS = {
+    "penyebab", "sebab", "alasan", "faktor",
+    "mengapa", "kenapa"
+}
 
 # Question words untuk filtering
 QUESTION_WORDS = {
@@ -82,20 +86,18 @@ def preprocess_text(text: str) -> str:
 
 
 def remove_question_tokens(token_tags: List[Tuple[str, str]]) -> List[Tuple[str, str]]:
-    """
-    Hapus token kata tanya dari hasil NER
-    
-    Args:
-        token_tags: List of (token, tag) tuples
-        
-    Returns:
-        Filtered list of (token, tag) tuples
-    """
     filtered = []
     for token, tag in token_tags:
-        if token.lower() in QUESTION_WORDS:
+        tok = token.lower()
+
+        if tok in QUESTION_WORDS:
             continue
+
+        if tok in NON_MEDICAL_TERMS:
+            continue
+
         filtered.append((token, tag))
+
     return filtered
 
 

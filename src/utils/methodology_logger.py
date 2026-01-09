@@ -7,14 +7,14 @@ def log_methodology_examples(logger, vocab, model=None, device=None):
     # --------------------------------------------------
     # 4.2.1 Preprocessing (Case Folding & Tokenizing)
     # --------------------------------------------------
-    example_text = "Daun menguning dan mengering akibat blas."
+    example_text = "Penyakit hawar daun bakteri menyebabkan daun padi mengering"
     log_preprocessing(example_text, logger)
 
     # --------------------------------------------------
     # 4.2.2 BIO Labeling (Contoh manual)
     # --------------------------------------------------
-    tokens = ["daun", "menguning", "dan", "mengering", "akibat", "blas", "."]
-    tags = ["B-BAGIAN_TANAMAN", "B-GEJALA", "O", "B-GEJALA", "O", "B-PENYAKIT", "O"]
+    tokens = ["penyakit", "hawar", "daun", "bakteri", "menyebabkan", "daun", "padi", "mengering"]
+    tags = ["O", "B-PENYAKIT", "I-PENYAKIT", "I-PENYAKIT", "O", "B-BAGIAN_TANAMAN", "I-BAGIAN_TANAMAN", "B-GEJALA"]
 
     logger.info("=== BIO Labeling Example ===")
     for t, tag in zip(tokens, tags):
@@ -38,7 +38,7 @@ def log_methodology_examples(logger, vocab, model=None, device=None):
         logger.info("=== Model Prediction Example ===")
         result = predict_sentence(
             model,
-            "Daun menguning dan mengering akibat blas.",
+            "Penyakit hawar daun bakteri menyebabkan daun padi mengering",
             vocab,
             device
         )

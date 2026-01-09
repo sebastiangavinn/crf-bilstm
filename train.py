@@ -62,7 +62,7 @@ valid_loader = DataLoader(valid_dataset, batch_size=BATCH_SIZE)
 weights = []
 for tag in vocab.tag2idx:
     if tag == "O":
-        weights.append(0.2)   # <<< label O ditekan bobotnya
+        weights.append(0.2)
     else:
         weights.append(1.0)
 
@@ -75,10 +75,11 @@ model = BiLSTM_CRF(
     vocab_size=len(vocab.word2idx),
     tagset_size=len(vocab.tag2idx),
     dropout=0.5,
+    class_weights=class_weights
 ).to(DEVICE)
 
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
-trainer = Trainer(model, optimizer, DEVICE, class_weights)
+trainer = Trainer(model, optimizer, DEVICE)
 
 # ======================
 # TRAINING LOOP
