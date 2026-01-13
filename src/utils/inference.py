@@ -12,6 +12,13 @@ NON_MEDICAL_TERMS = {
     "mengapa", "kenapa"
 }
 
+GEJALA_LEXICON = {
+    "menguning", "kuning", "kekuningan", "klorosis",
+    "layu", "kering", "busuk",
+    "bercak", "bercak coklat", "bercak cokelat",
+    "berlubang", "gugur", "mati"
+}
+
 # Question words untuk filtering
 QUESTION_WORDS = {
     "kenapa", "mengapa", "apa", "bagaimana",
@@ -39,6 +46,21 @@ SYNONYM_MAP = {
     "malai padi": "malai",
 }
 
+def recover_gejala_from_text(text: str, entities: Dict[str, List[str]]) -> Dict[str, List[str]]:
+    """
+    Fallback jika NER gagal mendeteksi GEJALA.
+    """
+    text_l = text.lower()
+    found = set(entities.get("GEJALA", []))
+
+    for g in GEJALA_LEXICON:
+        if g in text_l:
+            found.add(SYNONYM_MAP.get(g, g))
+
+    if found:
+        entities["GEJALA"] = list(found)
+
+    return entities
 
 def predict_sentence(model, sentence: str, vocab, device: str, max_len: int = 100) -> List[Tuple[str, str]]:
     """
@@ -187,21 +209,13 @@ def extract_entities(token_tags: List[Tuple[str, str]]) -> Dict[str, List[str]]:
 
 
 def detect_intent(entities: Dict[str, List[str]]) -> str:
-    """
-    Deteksi intent dari entitas yang ditemukan
-    
-    Args:
-        entities: Dictionary dengan format {entity_type: [list of entities]}
-        
-    Returns:
-        Intent: "diagnosis", "definition", atau "unknown"
-    """
-    if "GEJALA" in entities:
+    if "GEJALA" in entities or "BAGIAN_TANAMAN" in entities:
         return "diagnosis"
+
     if "PENYAKIT" in entities or "HAMA" in entities:
         return "definition"
-    return "unknown"
 
+    return "unknown"
 
 class QAPipeline:
     """
@@ -237,27 +251,16 @@ class QAPipeline:
         return predict_sentence(self.model, clean_text, self.vocab, self.device)
     
     def extract_and_normalize_entities(self, text: str) -> Dict[str, List[str]]:
-        """
-        Ekstrak dan normalisasi entitas dari teks
-        
-        Args:
-            text: Input text
-            
-        Returns:
-            Dictionary dengan format {entity_type: [list of entities]}
-        """
-        # Prediksi NER
         ner_output = self.predict_ner(text)
-        
-        # Filter kata tanya
+
         filtered_tokens = remove_question_tokens(ner_output)
-        
-        # Ekstrak entitas
+
         entities = extract_entities(filtered_tokens)
-        
-        # Normalisasi
+
         entities = normalize_entities(entities)
-        
+
+        entities = recover_gejala_from_text(text, entities)
+
         return entities
     
     def answer_with_reasoning(self, question: str) -> Dict:

@@ -8,7 +8,7 @@ class BiLSTM_CRF(nn.Module):
         tagset_size,
         emb_dim=128,
         hidden_dim=128,
-        dropout=0.5,
+        dropout=0,
         class_weights=None
     ):
         super().__init__()

@@ -18,7 +18,7 @@ class DataReader:
                         sent, tag_seq = [], []
                 else:
                     word, tag = line.split()[0], line.split()[-1]
-                    word = clean_token(word)   # 👈 PEMBERSIHAN DI SINI
+                    word = clean_token(word)
                     sent.append(word)
                     tag_seq.append(tag)
 

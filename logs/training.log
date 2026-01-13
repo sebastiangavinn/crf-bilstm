@@ -491,3 +491,169 @@
 2026-01-09 14:34:12 | INFO | >> Best model updated
 2026-01-09 14:34:12 | INFO | === TRAINING FINISHED ===
 2026-01-09 14:34:12 | INFO | Best Validation F1: 0.9163
+2026-01-13 20:45:36 | INFO | === EXPERIMENT STARTED ===
+2026-01-13 20:45:36 | INFO | Device: cpu
+2026-01-13 20:45:36 | INFO | === METHODOLOGY EXAMPLES START ===
+2026-01-13 20:45:36 | INFO | === Preprocessing Example ===
+2026-01-13 20:45:36 | INFO | Original     : Penyakit hawar daun bakteri menyebabkan daun padi mengering
+2026-01-13 20:45:36 | INFO | Case folding : penyakit hawar daun bakteri menyebabkan daun padi mengering
+2026-01-13 20:45:36 | INFO | Tokenized    : ['penyakit', 'hawar', 'daun', 'bakteri', 'menyebabkan', 'daun', 'padi', 'mengering']
+2026-01-13 20:45:36 | INFO | === BIO Labeling Example ===
+2026-01-13 20:45:36 | INFO | penyakit     -> O
+2026-01-13 20:45:36 | INFO | hawar        -> B-PENYAKIT
+2026-01-13 20:45:36 | INFO | daun         -> I-PENYAKIT
+2026-01-13 20:45:36 | INFO | bakteri      -> I-PENYAKIT
+2026-01-13 20:45:36 | INFO | menyebabkan  -> O
+2026-01-13 20:45:36 | INFO | daun         -> B-BAGIAN_TANAMAN
+2026-01-13 20:45:36 | INFO | padi         -> I-BAGIAN_TANAMAN
+2026-01-13 20:45:36 | INFO | mengering    -> B-GEJALA
+2026-01-13 20:45:36 | INFO | === Encoding & Padding Example ===
+2026-01-13 20:45:36 | INFO | Tokens  : ['penyakit', 'hawar', 'daun', 'bakteri', 'menyebabkan', 'daun', 'padi', 'mengering']
+2026-01-13 20:45:36 | INFO | Encoded : [39, 50, 11, 51, 1, 11, 109, 44]
+2026-01-13 20:45:36 | INFO | Padded  : [39, 50, 11, 51, 1, 11, 109, 44, 0, 0]
+2026-01-13 20:45:36 | INFO | === METHODOLOGY EXAMPLES END ===
+2026-01-13 20:45:38 | INFO | Epoch 1/30 | Train Loss: 13.0872 | Val F1: 0.6049
+2026-01-13 20:45:38 | INFO | >> Best model updated
+2026-01-13 20:45:39 | INFO | Epoch 2/30 | Train Loss: 8.8258 | Val F1: 0.5461
+2026-01-13 20:45:39 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:45:40 | INFO | Epoch 3/30 | Train Loss: 5.1659 | Val F1: 0.7183
+2026-01-13 20:45:40 | INFO | >> Best model updated
+2026-01-13 20:45:41 | INFO | Epoch 4/30 | Train Loss: 3.2939 | Val F1: 0.7313
+2026-01-13 20:45:41 | INFO | >> Best model updated
+2026-01-13 20:45:42 | INFO | Epoch 5/30 | Train Loss: 2.3584 | Val F1: 0.7673
+2026-01-13 20:45:42 | INFO | >> Best model updated
+2026-01-13 20:45:43 | INFO | Epoch 6/30 | Train Loss: 1.8408 | Val F1: 0.8176
+2026-01-13 20:45:43 | INFO | >> Best model updated
+2026-01-13 20:45:44 | INFO | Epoch 7/30 | Train Loss: 1.4663 | Val F1: 0.8873
+2026-01-13 20:45:44 | INFO | >> Best model updated
+2026-01-13 20:45:45 | INFO | Epoch 8/30 | Train Loss: 1.2858 | Val F1: 0.8893
+2026-01-13 20:45:45 | INFO | >> Best model updated
+2026-01-13 20:45:47 | INFO | Epoch 9/30 | Train Loss: 1.0918 | Val F1: 0.8922
+2026-01-13 20:45:47 | INFO | >> Best model updated
+2026-01-13 20:45:48 | INFO | Epoch 10/30 | Train Loss: 0.8917 | Val F1: 0.8886
+2026-01-13 20:45:48 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:45:49 | INFO | Epoch 11/30 | Train Loss: 0.7987 | Val F1: 0.8866
+2026-01-13 20:45:49 | INFO | No improvement. EarlyStopping counter 2/5
+2026-01-13 20:45:50 | INFO | Epoch 12/30 | Train Loss: 0.6769 | Val F1: 0.8867
+2026-01-13 20:45:50 | INFO | No improvement. EarlyStopping counter 3/5
+2026-01-13 20:45:51 | INFO | Epoch 13/30 | Train Loss: 0.6114 | Val F1: 0.8867
+2026-01-13 20:45:51 | INFO | No improvement. EarlyStopping counter 4/5
+2026-01-13 20:45:52 | INFO | Epoch 14/30 | Train Loss: 0.5025 | Val F1: 0.8946
+2026-01-13 20:45:52 | INFO | >> Best model updated
+2026-01-13 20:45:53 | INFO | Epoch 15/30 | Train Loss: 0.4549 | Val F1: 0.8880
+2026-01-13 20:45:53 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:45:54 | INFO | Epoch 16/30 | Train Loss: 0.3719 | Val F1: 0.8889
+2026-01-13 20:45:54 | INFO | No improvement. EarlyStopping counter 2/5
+2026-01-13 20:45:55 | INFO | Epoch 17/30 | Train Loss: 0.3440 | Val F1: 0.8962
+2026-01-13 20:45:55 | INFO | >> Best model updated
+2026-01-13 20:45:56 | INFO | Epoch 18/30 | Train Loss: 0.3255 | Val F1: 0.8996
+2026-01-13 20:45:56 | INFO | >> Best model updated
+2026-01-13 20:45:57 | INFO | Epoch 19/30 | Train Loss: 0.2870 | Val F1: 0.8991
+2026-01-13 20:45:57 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:45:58 | INFO | Epoch 20/30 | Train Loss: 0.2575 | Val F1: 0.9113
+2026-01-13 20:45:58 | INFO | >> Best model updated
+2026-01-13 20:45:59 | INFO | Epoch 21/30 | Train Loss: 0.2329 | Val F1: 0.8991
+2026-01-13 20:45:59 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:46:00 | INFO | Epoch 22/30 | Train Loss: 0.1994 | Val F1: 0.9024
+2026-01-13 20:46:00 | INFO | No improvement. EarlyStopping counter 2/5
+2026-01-13 20:46:01 | INFO | Epoch 23/30 | Train Loss: 0.1915 | Val F1: 0.9003
+2026-01-13 20:46:01 | INFO | No improvement. EarlyStopping counter 3/5
+2026-01-13 20:46:02 | INFO | Epoch 24/30 | Train Loss: 0.1816 | Val F1: 0.9024
+2026-01-13 20:46:02 | INFO | No improvement. EarlyStopping counter 4/5
+2026-01-13 20:46:03 | INFO | Epoch 25/30 | Train Loss: 0.1643 | Val F1: 0.9127
+2026-01-13 20:46:03 | INFO | >> Best model updated
+2026-01-13 20:46:04 | INFO | Epoch 26/30 | Train Loss: 0.1542 | Val F1: 0.9127
+2026-01-13 20:46:04 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:46:05 | INFO | Epoch 27/30 | Train Loss: 0.1335 | Val F1: 0.9024
+2026-01-13 20:46:05 | INFO | No improvement. EarlyStopping counter 2/5
+2026-01-13 20:46:06 | INFO | Epoch 28/30 | Train Loss: 0.1242 | Val F1: 0.9017
+2026-01-13 20:46:06 | INFO | No improvement. EarlyStopping counter 3/5
+2026-01-13 20:46:07 | INFO | Epoch 29/30 | Train Loss: 0.1214 | Val F1: 0.9091
+2026-01-13 20:46:07 | INFO | No improvement. EarlyStopping counter 4/5
+2026-01-13 20:46:08 | INFO | Epoch 30/30 | Train Loss: 0.1186 | Val F1: 0.9163
+2026-01-13 20:46:08 | INFO | >> Best model updated
+2026-01-13 20:46:08 | INFO | === TRAINING FINISHED ===
+2026-01-13 20:46:08 | INFO | Best Validation F1: 0.9163
+2026-01-13 20:47:17 | INFO | === EXPERIMENT STARTED ===
+2026-01-13 20:47:17 | INFO | Device: cpu
+2026-01-13 20:47:17 | INFO | === METHODOLOGY EXAMPLES START ===
+2026-01-13 20:47:17 | INFO | === Preprocessing Example ===
+2026-01-13 20:47:17 | INFO | Original     : Penyakit hawar daun bakteri menyebabkan daun padi mengering
+2026-01-13 20:47:17 | INFO | Case folding : penyakit hawar daun bakteri menyebabkan daun padi mengering
+2026-01-13 20:47:17 | INFO | Tokenized    : ['penyakit', 'hawar', 'daun', 'bakteri', 'menyebabkan', 'daun', 'padi', 'mengering']
+2026-01-13 20:47:17 | INFO | === BIO Labeling Example ===
+2026-01-13 20:47:17 | INFO | penyakit     -> O
+2026-01-13 20:47:17 | INFO | hawar        -> B-PENYAKIT
+2026-01-13 20:47:17 | INFO | daun         -> I-PENYAKIT
+2026-01-13 20:47:17 | INFO | bakteri      -> I-PENYAKIT
+2026-01-13 20:47:17 | INFO | menyebabkan  -> O
+2026-01-13 20:47:17 | INFO | daun         -> B-BAGIAN_TANAMAN
+2026-01-13 20:47:17 | INFO | padi         -> I-BAGIAN_TANAMAN
+2026-01-13 20:47:17 | INFO | mengering    -> B-GEJALA
+2026-01-13 20:47:17 | INFO | === Encoding & Padding Example ===
+2026-01-13 20:47:17 | INFO | Tokens  : ['penyakit', 'hawar', 'daun', 'bakteri', 'menyebabkan', 'daun', 'padi', 'mengering']
+2026-01-13 20:47:17 | INFO | Encoded : [39, 50, 11, 51, 1, 11, 109, 44]
+2026-01-13 20:47:17 | INFO | Padded  : [39, 50, 11, 51, 1, 11, 109, 44, 0, 0]
+2026-01-13 20:47:17 | INFO | === METHODOLOGY EXAMPLES END ===
+2026-01-13 20:47:19 | INFO | Epoch 1/30 | Train Loss: 13.0872 | Val F1: 0.6049
+2026-01-13 20:47:19 | INFO | >> Best model updated
+2026-01-13 20:47:20 | INFO | Epoch 2/30 | Train Loss: 8.8258 | Val F1: 0.5461
+2026-01-13 20:47:20 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:47:21 | INFO | Epoch 3/30 | Train Loss: 5.1659 | Val F1: 0.7183
+2026-01-13 20:47:21 | INFO | >> Best model updated
+2026-01-13 20:47:22 | INFO | Epoch 4/30 | Train Loss: 3.2939 | Val F1: 0.7313
+2026-01-13 20:47:22 | INFO | >> Best model updated
+2026-01-13 20:47:23 | INFO | Epoch 5/30 | Train Loss: 2.3584 | Val F1: 0.7673
+2026-01-13 20:47:23 | INFO | >> Best model updated
+2026-01-13 20:47:24 | INFO | Epoch 6/30 | Train Loss: 1.8408 | Val F1: 0.8176
+2026-01-13 20:47:24 | INFO | >> Best model updated
+2026-01-13 20:47:25 | INFO | Epoch 7/30 | Train Loss: 1.4663 | Val F1: 0.8873
+2026-01-13 20:47:25 | INFO | >> Best model updated
+2026-01-13 20:47:26 | INFO | Epoch 8/30 | Train Loss: 1.2858 | Val F1: 0.8893
+2026-01-13 20:47:26 | INFO | >> Best model updated
+2026-01-13 20:47:27 | INFO | Epoch 9/30 | Train Loss: 1.0918 | Val F1: 0.8922
+2026-01-13 20:47:27 | INFO | >> Best model updated
+2026-01-13 20:47:28 | INFO | Epoch 10/30 | Train Loss: 0.8917 | Val F1: 0.8886
+2026-01-13 20:47:28 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:47:29 | INFO | Epoch 11/30 | Train Loss: 0.7987 | Val F1: 0.8866
+2026-01-13 20:47:29 | INFO | No improvement. EarlyStopping counter 2/5
+2026-01-13 20:47:30 | INFO | Epoch 12/30 | Train Loss: 0.6769 | Val F1: 0.8867
+2026-01-13 20:47:30 | INFO | No improvement. EarlyStopping counter 3/5
+2026-01-13 20:47:31 | INFO | Epoch 13/30 | Train Loss: 0.6114 | Val F1: 0.8867
+2026-01-13 20:47:31 | INFO | No improvement. EarlyStopping counter 4/5
+2026-01-13 20:47:32 | INFO | Epoch 14/30 | Train Loss: 0.5025 | Val F1: 0.8946
+2026-01-13 20:47:32 | INFO | >> Best model updated
+2026-01-13 20:47:33 | INFO | Epoch 15/30 | Train Loss: 0.4549 | Val F1: 0.8880
+2026-01-13 20:47:33 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:47:34 | INFO | Epoch 16/30 | Train Loss: 0.3719 | Val F1: 0.8889
+2026-01-13 20:47:34 | INFO | No improvement. EarlyStopping counter 2/5
+2026-01-13 20:47:35 | INFO | Epoch 17/30 | Train Loss: 0.3440 | Val F1: 0.8962
+2026-01-13 20:47:35 | INFO | >> Best model updated
+2026-01-13 20:47:36 | INFO | Epoch 18/30 | Train Loss: 0.3255 | Val F1: 0.8996
+2026-01-13 20:47:36 | INFO | >> Best model updated
+2026-01-13 20:47:37 | INFO | Epoch 19/30 | Train Loss: 0.2870 | Val F1: 0.8991
+2026-01-13 20:47:37 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:47:38 | INFO | Epoch 20/30 | Train Loss: 0.2575 | Val F1: 0.9113
+2026-01-13 20:47:38 | INFO | >> Best model updated
+2026-01-13 20:47:39 | INFO | Epoch 21/30 | Train Loss: 0.2329 | Val F1: 0.8991
+2026-01-13 20:47:39 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:47:40 | INFO | Epoch 22/30 | Train Loss: 0.1994 | Val F1: 0.9024
+2026-01-13 20:47:40 | INFO | No improvement. EarlyStopping counter 2/5
+2026-01-13 20:47:41 | INFO | Epoch 23/30 | Train Loss: 0.1915 | Val F1: 0.9003
+2026-01-13 20:47:41 | INFO | No improvement. EarlyStopping counter 3/5
+2026-01-13 20:47:43 | INFO | Epoch 24/30 | Train Loss: 0.1816 | Val F1: 0.9024
+2026-01-13 20:47:43 | INFO | No improvement. EarlyStopping counter 4/5
+2026-01-13 20:47:44 | INFO | Epoch 25/30 | Train Loss: 0.1643 | Val F1: 0.9127
+2026-01-13 20:47:44 | INFO | >> Best model updated
+2026-01-13 20:47:46 | INFO | Epoch 26/30 | Train Loss: 0.1542 | Val F1: 0.9127
+2026-01-13 20:47:46 | INFO | No improvement. EarlyStopping counter 1/5
+2026-01-13 20:47:47 | INFO | Epoch 27/30 | Train Loss: 0.1335 | Val F1: 0.9024
+2026-01-13 20:47:47 | INFO | No improvement. EarlyStopping counter 2/5
+2026-01-13 20:47:48 | INFO | Epoch 28/30 | Train Loss: 0.1242 | Val F1: 0.9017
+2026-01-13 20:47:48 | INFO | No improvement. EarlyStopping counter 3/5
+2026-01-13 20:47:50 | INFO | Epoch 29/30 | Train Loss: 0.1214 | Val F1: 0.9091
+2026-01-13 20:47:50 | INFO | No improvement. EarlyStopping counter 4/5
+2026-01-13 20:47:51 | INFO | Epoch 30/30 | Train Loss: 0.1186 | Val F1: 0.9163
+2026-01-13 20:47:51 | INFO | >> Best model updated
+2026-01-13 20:47:51 | INFO | === TRAINING FINISHED ===
+2026-01-13 20:47:51 | INFO | Best Validation F1: 0.9163

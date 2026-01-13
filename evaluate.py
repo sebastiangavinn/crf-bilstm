@@ -1,6 +1,6 @@
 from pathlib import Path
 import torch
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, confusion_matrix
 
 from src.data.reader import DataReader
 from src.data.vocabulary import Vocabulary
@@ -55,5 +55,15 @@ with torch.no_grad():
 report = classification_report(y_true_all, y_pred_all)
 logger.info("=== FINAL TEST RESULT ===")
 logger.info("\n" + report)
+
+labels = list(vocab.tag2idx.keys())
+cm = confusion_matrix(y_true_all, y_pred_all, labels=labels)
+
+logger.info("Labels order:")
+logger.info(labels)
+
+logger.info("=== CONFUSION MATRIX ===")
+logger.info("\n" + str(cm))
+
 
 logger.info("=== EVALUATION FINISHED ===")
