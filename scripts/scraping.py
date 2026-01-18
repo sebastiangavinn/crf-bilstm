@@ -118,7 +118,8 @@ def main():
     # URL yang ingin di-scrape
     urls = [
         "https://disperta.mojokertokab.go.id/detail-artikel/hama-dan-penyakit-tanaman-padi-1594789787",
-        # Tambahkan URL lain jika perlu
+        "https://repository.pertanian.go.id/handle/123456789/24241",
+        "https://distan.bulelengkab.go.id/informasi/detail/artikel/penyakit-tungro-pada-tanaman-padi-dan-cara-pengendaliannya-44"
     ]
     
     all_data = []
